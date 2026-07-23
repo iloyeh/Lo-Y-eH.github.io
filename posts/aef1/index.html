@@ -1,0 +1,3711 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="词缀助记, HTML,CSS,JavaScript,JQuery,React,Vue.js">
+    <meta name="description" content="人生苦短，何妨一试">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>词缀助记 | loyeh の Oasis</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+
+    <!--看板娘-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="/live2d-widget/autoload.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+
+    <!-- 加载动画 -->
+    <!--自定义添加的 Loading Page CSS 样式-->
+    
+        <link rel="stylesheet" type="text/css" href="/css/loading.css">
+    
+
+    <!-- 添加标题锚点 -->
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+<meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="loyeh の Oasis" type="application/atom+xml">
+</head>
+
+
+<!--设置背景图-->
+
+
+<!-- 添加Tidio聊天部件到您的网站（暂时关闭） -->
+<!-- <script src="//code.tidio.co/sdqtecquvqa9gaqrpapr6v2mlrku6ayf.js" async></script> -->
+
+<!-- 添加loading page -->
+
+    
+    <div id="loader-box">
+        <!-- 你的 HTML 代码将放在这里  -->
+        <div class="loader-wrapper">
+            <div class="loader">
+                <img src="/medias/avatar.jpg" alt="">
+            </div>
+            <div class="loader-text">
+                <!-- 10个div -->
+                <div>L</div>
+                <div>O</div>
+                <div>A</div>
+                <div>D</div>
+                <div>I</div>
+                <div>N</div>
+                <div>G</div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <script>
+            var endLoading = function () {
+                document.body.style.overflow = 'auto';
+                document.getElementById('loader-box').remove();
+            }
+            window.addEventListener('load', endLoading);
+        </script>
+    </div>
+    
+
+
+<!--暂时不使用Font Awesome Kit-->
+<!--<script src="https://kit.fontawesome.com/xxx.js" crossorigin="anonymous"></script>-->
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">loyeh の Oasis</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fa-solid fa-house" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-paper-plane" style="zoom: 0.6;"></i>
+      
+      <span>文章</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>标签</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/essay">
+          
+          <i class="fas fa-pen-nib" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>随笔</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/archives">
+          
+          <i class="fas fa-archive" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>归档</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>分类</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友人帐</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-address-card" style="zoom: 0.6;"></i>
+      
+      <span>清单</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/asteroids">
+          
+          <i class="fas fa-meteor" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>碎星海</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/navigate">
+          
+          <i class="fas fa-location-arrow" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>导航</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>媒体</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/tip">
+          
+          <i class="fas fa-circle-dollar-to-slot" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>打赏</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/musics">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>音乐</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/movies">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>影视</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/galleries">
+          
+          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>相册</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/videos">
+          
+          <i class="fas fa-video" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>vlog</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+
+<!-- 移动导航菜单，2024/5/21修改 -->
+<div id="mobile-nav" class="side-nav sidenav">
+    <div class="mobile-head bg-color">
+        
+            <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">loyeh の Oasis</div>
+        <div class="logo-desc">
+            
+                人生苦短，何妨一试
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+            <li class="m-nav-item">
+                
+                    <a href="/" class="waves-effect waves-light">
+                        
+                            <i class="fa-fw fa-solid fa-house"></i>
+                        
+                        首页
+                    </a>
+                
+            </li>
+        
+            <li class="m-nav-item">
+                
+                    <a href="javascript:;">
+                        
+                            <i class="fa-fw fas fa-paper-plane"></i>
+                        
+                        文章
+                        <span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+                    </a>
+                    <ul  style="background:  ;">
+                        
+                            <li>
+                                <a href="/tags" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-tags" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>标签</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/essay" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-pen-nib" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>随笔</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/archives" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-archive" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>归档</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/categories" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-bookmark" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>分类</span>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            <li class="m-nav-item">
+                
+                    <a href="/about" class="waves-effect waves-light">
+                        
+                            <i class="fa-fw fas fa-user-circle"></i>
+                        
+                        关于
+                    </a>
+                
+            </li>
+        
+            <li class="m-nav-item">
+                
+                    <a href="/contact" class="waves-effect waves-light">
+                        
+                            <i class="fa-fw fas fa-comments"></i>
+                        
+                        留言板
+                    </a>
+                
+            </li>
+        
+            <li class="m-nav-item">
+                
+                    <a href="/friends" class="waves-effect waves-light">
+                        
+                            <i class="fa-fw fas fa-address-book"></i>
+                        
+                        友人帐
+                    </a>
+                
+            </li>
+        
+            <li class="m-nav-item">
+                
+                    <a href="javascript:;">
+                        
+                            <i class="fa-fw fas fa-address-card"></i>
+                        
+                        清单
+                        <span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+                    </a>
+                    <ul  style="background:  ;">
+                        
+                            <li>
+                                <a href="/asteroids" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-meteor" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>碎星海</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/navigate" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-location-arrow" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>导航</span>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            <li class="m-nav-item">
+                
+                    <a href="javascript:;">
+                        
+                            <i class="fa-fw fas fa-list"></i>
+                        
+                        媒体
+                        <span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+                    </a>
+                    <ul  style="background:  ;">
+                        
+                            <li>
+                                <a href="/tip" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-circle-dollar-to-slot" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>打赏</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/musics" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-music" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>音乐</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/movies" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-film" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>影视</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/galleries" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-image" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>相册</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/videos" style="margin-left:75px">
+                                    
+                                        <i class="fa fas fa-video" style="position: absolute; left:50px"></i>
+                                    
+                                    <span>vlog</span>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+        
+            <li><div class="divider"></div></li>
+            <li>
+                <a href="https://github.com/iloyeh/iloyeh.github.io.git" class="waves-effect waves-light" target="_blank">
+                    <i class="fab fa-github-square fa-fw"></i>Fork Me
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/iloyeh/iloyeh.github.io.git" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">词缀助记</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    /* .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    } */
+    .toc-widget {
+    width: 345px;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15), 0 5px 15px rgba(0, 0, 0, .07), 0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 95px; /*按钮位置*/
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E8%AF%8D%E7%BC%80/">
+                                <span class="chip bg-color">词缀</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                笔记
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2024-07-15
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2026-07-23
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    14.3k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    57 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="词缀助记总结"><a href="#词缀助记总结" class="headerlink" title="词缀助记总结"></a>词缀助记总结</h1><p>总结性的东西：</p>
+<ol>
+<li><p><strong>sl-</strong> 开头的短词大多与 <strong>滑</strong> 和 <strong>瘦</strong> 有关</p>
+<table>
+<thead>
+<tr>
+<th>与<strong>滑</strong>相关</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Slip</strong> - 滑动，滑倒</td>
+<td><strong>Slide</strong> - 滑动，滑梯</td>
+<td><strong>Slick</strong> - 光滑的，油滑的</td>
+</tr>
+<tr>
+<td><strong>Slippery</strong> - 滑的，打滑的</td>
+<td><strong>Sleek</strong> - 圆滑的，光滑的（通常形容外观光滑的）</td>
+<td><strong>Slippy</strong> - 光滑的，容易滑的</td>
+</tr>
+<tr>
+<td>Slender - 苗条的</td>
+<td>Slim - 苗条的</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+<li><p><strong>gl-</strong> 开头跟 光 有关</p>
+</li>
+<li><p><strong>tw-</strong> 跟 <strong>扭</strong> 或 <strong>二</strong> 有关</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Twist</strong> - 扭曲，拧；也可以指意料之外的转折</td>
+<td>Twitch - 抽搐，轻微的扭动</td>
+<td>Twine - 缠绕，盘绕；也可以指编织用的细绳</td>
+</tr>
+<tr>
+<td>Twirl - 旋转，快速转动</td>
+<td>Twiddle - 捻弄，旋转；通常指无聊时用手指摆弄某物</td>
+<td>tweak <strong>扭</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+<li><p><strong>gru-</strong> 跟 <strong>咕哝、抱怨</strong> 有关</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Grumble</strong> - 抱怨，嘟囔</td>
+<td><strong>Grunt</strong> - 低沉的咕哝声，表示不满或不耐烦</td>
+<td><strong>Groan</strong> - 呻吟，抱怨</td>
+</tr>
+<tr>
+<td><strong>Grudge</strong> - 怨恨，抱怨，心存不满</td>
+<td><strong>Grump</strong> - 抱怨，发牢骚</td>
+<td><strong>Gruff</strong> - 粗哑的（或态度粗暴的）</td>
+</tr>
+</tbody></table>
+</li>
+<li><p><strong>cl-</strong> 跟 粘黏 结合 有关</p>
+<p>以“cl-”开头的词汇中，有一些确实与“粘黏”或“结合”相关。这种现象可能与音素联想有关，因为“cl-”在发音上可能让人联想到某种结合或粘附的动作。以下是一些与“粘黏”或“结合”相关的“cl-”词汇：</p>
+<h3 id="与“粘黏”或“结合”相关的“cl-”词汇："><a href="#与“粘黏”或“结合”相关的“cl-”词汇：" class="headerlink" title="与“粘黏”或“结合”相关的“cl-”词汇："></a>与“粘黏”或“结合”相关的“cl-”词汇：</h3><ol>
+<li><p><strong>Cling</strong> - 紧贴，附着，依附；通常指某物牢牢地粘附在另一物体上。</p>
+</li>
+<li><p><strong>Clutch</strong> - 紧握，抓住；通常指牢牢地抓住某物，不让其脱离。</p>
+</li>
+<li><p><strong>Clamp</strong>夹住，固定；通常使用夹具或其他工具将物体牢牢地固定在一起。</p>
+</li>
+<li><p><strong>Clasp</strong></p>
+<p>扣住，紧握；可以指紧紧抓住某物，也可以指用钩子、扣子等将东西固定在一起。</p>
+</li>
+<li><p><strong>Cluster</strong> - 群，簇，团；指物体或人紧密地聚集在一起。</p>
+</li>
+<li><p><strong>Clot</strong> - 凝块，凝结；指液体物质（如血液）在某处凝结成块状。</p>
+</li>
+</ol>
+<h3 id="其他相关的“cl-”词汇："><a href="#其他相关的“cl-”词汇：" class="headerlink" title="其他相关的“cl-”词汇："></a>其他相关的“cl-”词汇：</h3><p>虽然这些词并不直接与“粘黏”或“结合”有关，但它们也有某种形式的联系或接触的含义。</p>
+<ol>
+<li><p><strong>Climb</strong></p>
+<ul>
+<li><strong>释义</strong>: 攀登，爬上；通常指手脚并用攀附在某物上。</li>
+<li><strong>例句</strong>: She climbed the ladder to reach the top shelf.（她爬上梯子，够到顶层的架子。）</li>
+</ul>
+</li>
+<li><p><strong>Cloak</strong></p>
+<ul>
+<li><strong>释义</strong>: 斗篷；也可作为动词表示覆盖、隐藏。</li>
+<li><strong>例句</strong>: The fog cloaked the valley in mystery.（浓雾笼罩着山谷，使其充满神秘感。）</li>
+</ul>
+</li>
+</ol>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>以“cl-”开头的词汇中，确实有不少与“粘黏”或“结合”相关的词。这些词往往表达了某种物理上的紧密接触或固定的概念。这种现象可能是英语中“cl-”音素与这些动作或状态的联想，但并非所有以“cl-”开头的词都符合这一规律。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ol>
+<h2 id="第一部分-核心词根（124个）"><a href="#第一部分-核心词根（124个）" class="headerlink" title="第一部分 核心词根（124个）"></a>第一部分 核心词根（124个）</h2><p>1、ag ag &#x3D; do ， act 做，动<br>agent [ag做，办理，ent名词后缀，表示人；做事者，“办理人”] 代理人</p>
+<p>agency [ag 做，作 ency 名词后缀] 代理，代理处，机构，作用</p>
+<p>2、agri<br>agri &#x3D; field 田地，农田 (agri 也作 agro, agr)</p>
+<p>agriculture [agri 田地，农田，cult 耕作 –ure 名词后缀] 农业，农艺</p>
+<p>agronomy [agro农田→农业，nomy …..学] 农学</p>
+<p>agrestic [agr 田地→乡村→乡野] 乡间的，乡野的，粗野的</p>
+<p>3、ann<br>ann &#x3D; year 年 （ann也作enn）</p>
+<p>annual [ann 年，-ual 形容词后缀，……的] 每年的，年度的</p>
+<p>perennial [per-通，全，enn年，-ial形容词后缀，…的] 全年的，四季不断的</p>
+<p>4、audi<br>audi&#x3D;hear 听 （audi也作audit）</p>
+<p>audience [audi听，-ence名词后缀] 听众，倾听</p>
+<p>auditorium [audi听，-orium 名词后缀，表示场所，地点；“听讲的场所”] 礼堂，讲堂，听众席</p>
+<p>5、bell<br>bell&#x3D;war战争</p>
+<p>rebel [re-相反，bel(l)战争，战斗；“反戈”，“反战”] 反叛，反抗</p>
+<p>6、brev<br>brev&#x3D;short短</p>
+<p>brevity [brev短，-ity名词后缀] （陈述等的）简短，简洁；（生命等的）短暂，短促</p>
+<p>7、ced<br>ced&#x3D;go行走（ced也作ceed，cess）</p>
+<p>preceding [pre-先，前,见上，-ing形容词后缀，…的] 在前的，在先的</p>
+<p>procedure [pro-向前，ced行，-ure名词后缀；“进行的过程”] 过程，步骤，手续</p>
+<p>8、cept<br>cept&#x3D;take 拿，取</p>
+<p>except [ex-外，出，cept拿；“拿出去”→排除，除外] 除…之外，把…除 外</p>
+<p>accept [ac-加强意义，cept拿→接] 接受，领受，承认</p>
+<p>9、cid，cis<br>cid，cis&#x3D;cut，kill 切，杀</p>
+<p>decide [de-表示加强意义，cid切，切断→裁断→裁决] 决定，裁决，判决，下决心</p>
+<p>concise [con-表示加强意义，cis切；“切短”，“切除”不必要的部分，删除除冗言赘语，留下精简扼要的部分] 简明的，简洁的，简要的</p>
+<p>10、circ<br>circ&#x3D;ring环，圆</p>
+<p>circus [circ圆，-us名词后缀；“圆形的表演场地] 马戏场；[转为]马戏团</p>
+<p>circular [circul&#x3D;circle圆，-ar形容词后缀，…的] 圆形的，环形的</p>
+<p>11、claim，clam<br>claim，clam&#x3D;cry，shout 喊叫</p>
+<p>exclaim [ex-外，出，claim叫，“大声叫出”] 呼喊，惊叫</p>
+<p>proclaim [pro-向前，claim叫喊→声言] 宣布，宣告，声明</p>
+<p>12、clar<br>clar&#x3D;clear 清楚，明白</p>
+<p>declare [de-表示加强意义，clar&#x3D;clear清楚，明白；“to make clear”，“使明白”] 表明，声明，宣告，宣布</p>
+<p>clarify [clar&#x3D;clear清楚，明白，-i-，-fy 动词后缀，使…；“使明白”] 讲清楚，阐明，澄清</p>
+<p>13、clud<br>clud&#x3D;close，shut关闭（clud也作clus）</p>
+<p>exclude [ex-外，clud关；“关在外面”→不许入内] 排斥，拒绝接纳，把…排除在外</p>
+<p>include [in-入，内，clud关闭；“关在里面”，“包入”] 包含，包括，包住，关住</p>
+<p>14、cogn<br>cogn&#x3D;know知道</p>
+<p>recognize [re-表示加强意义，cogn知道→认识，-ize动词后缀] 认识，认出，认知</p>
+<p>precognition [pre-预先，cogn知道，-ition名词后缀] 预知，预察，预见</p>
+<p>15、cord<br>cord&#x3D;heart心</p>
+<p>cordial [cord心，-ial形容词后缀，…的] 衷心的，诚心的</p>
+<p>accord [ac-表示to，cord心；“心心相印”]一致，协调，符合，使一致</p>
+<p>16、corpor<br>corpor&#x3D;body （corpor也作corp）</p>
+<p>corporation [corpor体，-ation名词后缀；由众人组成的一个“整体”] 团体，社团，公司</p>
+<p>corporator [corpor体→团体，-ator表示人] 社团或公司的成员</p>
+<p>17、cred<br>cred&#x3D;believe，trust 相信，信任</p>
+<p>credible [cred相信，信任，-ible形容词后缀，可…的] 可信的，可靠的</p>
+<p>incredible [in-不，credible可信的] 不可信的</p>
+<p>18、cruc<br>cruc&#x3D;cross十字</p>
+<p>crucial [cruc十字，-ial形容词后缀] 十字形的；[处在“十字路口”的] 紧要关头的，决定性的，临于最后选择的</p>
+<p>cruciform [cruc十字，-form形容词后缀，有…形状的] 十字形的</p>
+<p>19、cur<br>cur&#x3D;care关心，挂念，注意</p>
+<p>security [se-分开，脱离，cur挂念，担心，-ity名词后缀；“脱离挂念”→不用挂念，无须担心] 安全</p>
+<p>curious [cur关心，注意，-ious形容词后缀 “引人注意的”] 新奇的，奇怪的；</p>
+<p>20、cur，curs，cour，ccurs<br>cur，curs，cour，ccurs&#x3D;run跑</p>
+<p>currency [cur跑→行，-ency名词后缀] 流行，流通，流通货币，通货</p>
+<p>excurse [ex-外，出，curs跑→行走；“跑出去”，“出行”] 远足，旅游，旅行</p>
+<p>course [cours跑→行进] 行程，进程，路程，道路，课程</p>
+<p>21、dent<br>dent&#x3D;tooth牙齿</p>
+<p>dentist [dent牙，-ist表示人；“医治牙病的人”] 牙科医生</p>
+<p>dentistry [见上，-ry表示…学，技术，职业] 牙科学，牙科，牙科业</p>
+<p>22、di<br>di&#x3D;day日</p>
+<p>diary [di日，-ary名词后缀，表示物] 日记，日记簿</p>
+<p>dial [di日，-al名词后缀，表示物] 日晷，电话机拨号盘（该物圆形似日晷）</p>
+<p>23、dict<br>dict&#x3D;say言，说（dict也作dic）</p>
+<p>dictate [dict言，说→吩咐，命令，指示，-ate动词后缀；“口授命令或指示”] 口授命令或指示</p>
+<p>dictation [见上，-ion名词后缀] 口授，命令，支配，口述，听写</p>
+<p>24、dit<br>dit&#x3D;give给</p>
+<p>tradition [tra&#x3D;trans转，传达室，dit给，-ion名词后缀；“传给”] 传统，传说，口传</p>
+<p>edit [e-出，dit给，“给出”→发表，出版；将稿件编好以备发表] 编辑</p>
+<p>25、don<br>don&#x3D;give给（don也作do）</p>
+<p>pardon [par-&#x3D;per完全，彻底，don给，舍给→舍弃；“完全舍弃他人罪过”] 原谅，宽恕，赦罪</p>
+<p>donor [don给，赠给，-or表示人] 赠给者，捐献者</p>
+<p>26、du<br>du&#x3D;two二</p>
+<p>dual [du双，二，-al形容词后缀，..的] 二重的，双的，二元的</p>
+<p>duet [du双，二] 二重唱，二重奏</p>
+<p>27、duc<br>duc，duct&#x3D;lead引导</p>
+<p>educate [e-出，duc引导，-ate动词后缀；“引导出来，”“把…由无知状态中引导出来”→教导出来] 教育</p>
+<p>introduce [intro-入，duc引；“引入”] 引进，介绍</p>
+<p>28、ed<br>ed&#x3D;eat吃</p>
+<p>edible [ed吃，-ible形容词后缀，可…的] 可以吃的，食用的</p>
+<p>edacious [ed吃，-acious形容词后缀，表示有…性质的，好…的] 贪吃的，狼吞虎咽的</p>
+<p>29、equ<br>equ&#x3D;equal等，均，平</p>
+<p>equal [equ相等，-al形容词后缀，…的] 相等的，平等的，相同的</p>
+<p>equality [见上，-ity名词后缀] 同等，平等，均等</p>
+<p>30、ev<br>ev&#x3D;age年龄，寿命，时代，时期</p>
+<p>longevity [long长，ev年龄，寿命，ity名词后缀] 长寿，长命</p>
+<p>coeval [co-共同，ev时代，-al形容词后缀] 同时代的，同年代的，同时期的；[-al名词后缀] 同时代的人（或物）</p>
+<p>31、fact<br>fact&#x3D;do，make做，作（fact也作fac）</p>
+<p>factory [fact作，制作，-ory名词后缀，表示场所，地点；“制作的场所”] 工厂，制造厂</p>
+<p>manufacture [manu手，fact作，制作；“用手制作”，古时生产用手操作] 制造，加工</p>
+<p>32、fer<br>fer&#x3D;bring，carry带拿</p>
+<p>confer [con共同，一起，fer拿；把意见“拿到一起来”] 协商，商量，交换意见</p>
+<p>differ [dif-分开，fer拿，持；“分开拿”，“分取”，“各持已见”，“各执一词”→互异] 不同，相异，意见不同</p>
+<p>prefer [pre-先，fer拿，取;对某物’先取”，’先选”，宁愿’先要”某事物] 宁可，宁愿(选择)， 更喜欢…，偏爱…</p>
+<p>33、flor<br>flor&#x3D;flower花(flor也作flour)</p>
+<p>florist [flor花，-ist表示人] 种花者，花卉研究者</p>
+<p>flourish [flour花，-ish动词后缀;’如开花一样”] 繁荣，茂盛，兴旺，昌盛</p>
+<p>34、flu<br>flu&#x3D;flow流</p>
+<p>fluent [flu流，-ent形容词后缀，…的] 流动的，流畅的，(语言)流利的</p>
+<p>fluency [flu流，-ency名词后缀] 流利，流畅</p>
+<p>influence [in-入，flu流，-ence名词后缀;’流入”→波及→对周围事物产生影响] 影响，感动，势力;[转为动词] 感化，影响，对…有作用，左右</p>
+<p>35、fus<br>fus&#x3D;pour灌，流，倾泻</p>
+<p>refuse [re-回，fus流;’流回”→倒灌，倒流→退回→不接纳] 拒绝，拒受</p>
+<p>confuse [con-共同，合，fus流;’合流”，’流到一处”→混在一起] 使混杂，混乱，混淆，使迷乱</p>
+<p>36、grad<br>grad&#x3D;step，go，grade步，走，级</p>
+<p>gradual [grad步，-ual形容词后缀，…的] 逐步的，逐渐的</p>
+<p>graduate [grad步，级，-u-，-ate动词后缀;’在学业上走完某一步”，’在学业上完成某一级”] 毕业;[转为] 毕业生</p>
+<p>37、gram<br>gram&#x3D;write，something written of drawn 写，画，文字，图形</p>
+<p>grammar [gram写，文字，m重复字母，-ar名词后缀;关于’文字的法则] 语法，文法</p>
+<p>program [pro-在前面，gram写-书，表，单;’写在前面的说明文字”] 节目单，戏单，说明书，大纲，方案</p>
+<p>38、graph<br>graph&#x3D;write，writing，an instrument for making records 写，画，文字，图形，记录器</p>
+<p>photograph [photo光，影，graph写→记录;’把实物的影像录下来”] 照相，拍照，摄影，照片</p>
+<p>phototgraphy [见上，-y名词后缀] 摄影术</p>
+<p>39、gress<br>gress&#x3D;go，walk行走</p>
+<p>progress [pro-向前，gress行走] 前进，进步</p>
+<p>congress [con-共同，一起，gress走，来到;’大家走到一起来”→共聚一堂→开会→会议] (代表)大会，国会，议会</p>
+<p>40、habit<br>habit&#x3D;dwell居住</p>
+<p>habitant [habit居住，-ant表示人] 居住者</p>
+<p>cohabit [co-共同，habit居住] (男女)同居，姘居</p>
+<p>41、hibit<br>hibit&#x3D;hold拿，持</p>
+<p>exhibit [ex-外，出，hibit拿，持;’拿出去”→摆出去给人看] 展出，展览，陈列，展示，显示</p>
+<p>inhibit [in-表示in，hibit持，握;’to hold in”，’to maintain in”] 阻止，禁止，抑制</p>
+<p>42、hospit<br>hospit&#x3D;guest客人</p>
+<p>hospital [hospit客人，-al名词后缀;原义为接待’客人”的地方→接待’病客”的地方] 医院</p>
+<p>hospitalize [见上，-ize动词后缀] 把…送入医院治疗</p>
+<p>43、idio<br>idio&#x3D;peculiar，own，private，proper特殊的，个人的，专有的</p>
+<p>idiot [idio特殊的;’特殊的人”→异予正常人的人] 傻子，痴人，</p>
+<p>idiograph [idio个人的，专有的，graph写，文字，图形] 个人的签名，商标</p>
+<p>44、insul<br>insul&#x3D;island岛</p>
+<p>insulate [insul岛→孤立→与外界隔绝，-ate动词后缀，使…;’使成岛状”→使孤立，使与…隔绝] 隔离，使孤立，使绝缘</p>
+<p>insulin [insul岛，-in名词后缀，表示’素”] 胰岛素</p>
+<p>45、it<br>it&#x3D;go行走</p>
+<p>exit [ex-出，外，it行走;’走出”，’向外走”] 出口，太平门，退出</p>
+<p>circuit [cire圆，环，-u-，-it行] 环行，周线，电路，回路</p>
+<p>46、ject<br>ject&#x3D;throw投掷</p>
+<p>project [pro-向前，ject掷] 抛出，投出，投掷，发射，射出;[投出→拿出，’提出一种设想”] 设计，计划，规则</p>
+<p>inject [in-入，ject投;’投入”→射入] 注入，注射</p>
+<p>object [ob-相对，相反，对面，ject投;’投放在对面(前面)之物”] 对象，目标，物体;[与主词(主词)相对者] 宾语，受词;[投向对立面] 反对，抗议</p>
+<p>47、juven<br>juven&#x3D;young年轻，年少</p>
+<p>juvenile [juven年少，-ile形容词后缀，…的] 青少年的;[转作名词] 青少年</p>
+<p>juvenility [见上，-ility名词后缀] 年少，年轻</p>
+<p>48、lect<br>lect&#x3D;choose，gather选，收(lect也作leg，lig)</p>
+<p>elect [e-出，lect选;’选出”] 选举</p>
+<p>select [se-离开，分开，lect选] 挑选，选出，选择，选拔</p>
+<p>49、lev<br>lev&#x3D;raise举，升</p>
+<p>elevate [e-出，lev举，-ate动词后缀;’举出”→举起] 抬起，举起，使升高</p>
+<p>elevator [见上，-or表示人或物] 升降机，电梯，起卸机，举起者，起重工人</p>
+<p>50、liber<br>liber&#x3D;free自由</p>
+<p>liberty [liber自由，-ty名词后缀] 自由，自由权</p>
+<p>Liberia [liber自由，-ia名词后缀;意为’自由之国”] 利比里亚(非洲一国家名)</p>
+<p>51、lingu<br>lingu&#x3D;language语言</p>
+<p>linguist [lingu语言，-ist表示人] 语言学家</p>
+<p>collingual [col-同，ligua语言，al形容词后缀，…的] (用)同一种语言的</p>
+<p>52、liter<br>liter&#x3D;letter文字，字母</p>
+<p>literary [liter文字→文章→文学，-ary形容词后缀，…的] 文学的</p>
+<p>literator [见上，-ator表示人] 文学家，文人，作家</p>
+<p>53、loc<br>loc&#x3D;place地方</p>
+<p>local [loc地方，-al形容词后缀，…的] 地方的，当地的，本地的</p>
+<p>localism [见上，-ism表示主义，语言] 地方主义，方言，士语</p>
+<p>54、log<br>log&#x3D;speak言，说</p>
+<p>dialogue [dia-对，相对，log言，说] 对话</p>
+<p>apologize [见上，-ize动词后缀] 道歉，谢罪，辩解</p>
+<p>logic [log语言→辩论→推理，论理，-ic名词后缀，表示…学] 逻辑</p>
+<p>55、loqu<br>loqu&#x3D;speak言，说</p>
+<p>eloquent [e-出，loqu说，-ent形容词后缀，…的;’说出的”，’道出的”→能说会道的] 有口才的，雄辩的，善辩的，有说服力的</p>
+<p>eloquence [见上，-ence名词后缀] 雄辩，善辩，有口才</p>
+<p>56、lun<br>lun&#x3D;moon月亮</p>
+<p>lunar [lun月亮，-ar形容词后缀，…的] 月亮的，太阴的，似月的，新月形的</p>
+<p>semilunar [semi-半，lun月亮，-ar形容词后缀，…的] 半月形的，月牙形的</p>
+<p>57、man<br>man&#x3D;dwell，stay居住，停留</p>
+<p>mansion [man居住，-sion名词后缀;’居住的地方”] 宅第，宅邸，大楼，大厦</p>
+<p>permanent [per-贯穿，从始至终，一直，man停留，-ent形容词后缀，…的;’一直停留下去的”] 永久的，常驻的，常设的</p>
+<p>58、manu<br>manu&#x3D;hand手(manu也作man)</p>
+<p>manual [manu手，-al形容词后缀，…的] 手的，手工做的，用手的;[转为名词] 手册</p>
+<p>maintain [main→man手，tain持，握;’手持”，’握有”] 保持，保存，维持</p>
+<p>59、mar<br>mar&#x3D;sea海</p>
+<p>marine [mar海，-ine形容词后缀，…的] 海的，海上的.航海的</p>
+<p>submarine [sub-在…下面，mar海，ine形容词后缀] 海面下的，海底的，[转为名词;’潜入海面下之物”] 潜水艇</p>
+<p>60、medi<br>medi&#x3D;middle中间</p>
+<p>immediate [im-无，medi中间，-ate形容词后缀，…的;’没有中间空隙时间的”，’当中没有间隔的”] 立刻的，直接的</p>
+<p>medium [medi中间，-um名词后缀] 中间，中间物，媒介;[转为形容词] 中等的</p>
+<p>61、memor<br>memor&#x3D;memory记忆</p>
+<p>memory [memor记忆，-y表示情况，状态，行为] 记忆，记忆力，回忆，纪念</p>
+<p>memorize [memor记忆，-ize动词后缀，使…] 记住，熟记</p>
+<p>62、merg<br>merg&#x3D;dip，sink沉，没(merg也作mers)</p>
+<p>emerge [e-外，merg沉，沉于水中;’由水中浮出”] 浮现，出现</p>
+<p>submerge [sub-下，merg沉] 沉下，沉于水中，没入水中</p>
+<p>63、migr<br>migr&#x3D;remove，move迁移</p>
+<p>migrate [migr迁移，-ate动词后缀] 迁移，移居</p>
+<p>immigrate [in-入内，migr迁移，-ate动词后缀] 移居入境，(从外国)移来，移入</p>
+<p>64、milit<br>milit&#x3D;soldier兵</p>
+<p>militia [milit兵，-ia表示集合名词] 民兵组织，民兵(总称)</p>
+<p>militarism [见上，-ism主义] 军国主义</p>
+<p>65、mini<br>mini&#x3D;small，little小(mini也作min)</p>
+<p>minister [mini小，-ster名词后缀，表示人;’小人”→仆人→臣仆，古时大臣对君王自称为’小人”，仆人→君王或元首的仆人，转为现今的部长] 大臣，部长</p>
+<p>administer [ad-表示to，’执行大臣或部长的任务”] 管理，治理，执行，施政</p>
+<p>66、mir<br>mir&#x3D;wonder惊奇，惊异</p>
+<p>mirror [mir惊奇，-or表示物;能映出影像，使人感到惊奇之物.最初人们对镜子能映出影像感到惊奇] 镜子</p>
+<p>miracle [mir惊奇，奇异，-acle表示事物] 奇事，奇迹</p>
+<p>67、miss<br>miss&#x3D;send投，送，发(miss也作mit)</p>
+<p>mission [miss送，派送，委派，-ion名词后缀;’被派送(委派)出去者”] 使团，代表团，使命</p>
+<p>promise [pro-前，先，mis(&#x3D;miss)发;’事先发出”之言] 诺言，允诺</p>
+<p>68、mob<br>mob&#x3D;move动</p>
+<p>mobile [mob动，ile形容词兼名词后缀] 活动的，可动的，运动的，汽车</p>
+<p>mob [mob动→动乱，暴动→暴动的人] 暴民;一群暴徒</p>
+<p>69、mort<br>mort&#x3D;death死</p>
+<p>mortal [mort死，-al形容词后缀，…的] 终有一死的，死的，临死的</p>
+<p>immortal [im-不，mort死，-al形容词后缀，…的] 不死的，永生的，不朽的</p>
+<p>70、mot<br>mot&#x3D;move移动，动</p>
+<p>motion [mot动，-ion名词后缀，表示行为，情况] 运动，动</p>
+<p>promote [pro-向前，mor移动;’使向前移动”] 推进，促进，提升，升级</p>
+<p>71、momin<br>nomin&#x3D;name名</p>
+<p>nominal [nomin名，-al形容词后缀，…的] 名义上的，有名无实的</p>
+<p>nominate [nomin名，-ate动词后缀，做…事] 提名，任命</p>
+<p>72、nov<br>nov&#x3D;new新</p>
+<p>novel [nov新，-el名词后缀，表示物;新→新奇，’新奇的事”→故事] 小说，长篇小说;新奇的</p>
+<p>novelist [见上，-ist表示人] 小说家，小说作者</p>
+<p>73、numer<br>numer&#x3D;number数</p>
+<p>numeral [numer数，-al形容词后缀，…的] 数字的，示数的;[转为名词] 数字，(语法)数词</p>
+<p>numerate [numer数，-ate动词后缀，做…] 计算，计数，数</p>
+<p>74、onym<br>onym&#x3D;name名</p>
+<p>onymous [onym名，-ous形容词后缀，…的] 有名字的，署名的</p>
+<p>anonym [an-无，onym名] 匿名者，无名氏</p>
+<p>75、oper<br>oper&#x3D;work工作</p>
+<p>operate [oper工作，-ate动词后缀，做…] 工作，操作，运转，动手术</p>
+<p>opera [oper工作→动作→表演，作戏→戏] 歌剧</p>
+<p>76、ori<br>ori&#x3D;rise升起</p>
+<p>orient [ori升起;原义为’太阳升起的地方”] 东方，东方的</p>
+<p>origin [ori升→发生，发起→起源] 原始，起源，由来，出身</p>
+<p>77、paci<br>paci&#x3D;peace和平，平静</p>
+<p>pacific [paci和平，-fic形容词后缀，…的] 和平的，太平的，平静的</p>
+<p>pacify [paci和平，-fy动词后缀，使…的] 使和平，使平静，使平定，抚慰</p>
+<p>78、pel<br>pel&#x3D;push，drive推，逐，驱</p>
+<p>propel [pro-向前，pel推] 推进，推动</p>
+<p>expel [ex-出，外，pel驱逐] 逐出，赶出，驱逐，开除</p>
+<p>79、pend<br>(a)pend，pens&#x3D;hang悬挂</p>
+<p>depend [de-下，pend悬挂;’挂在他物下面”→依附于另一物体”] 依靠，依赖</p>
+<p>suspend [sus&#x3D;sub下，pend悬，吊，挂，’挂起来”] 挂，悬，中止，暂停</p>
+<p>80、pet<br>pet&#x3D;seek追求</p>
+<p>compete [com-共同，pet追求;’共同追求”] 竞争，角逐，比赛</p>
+<p>competition [见上，-ition名词后缀，表示行为] 竞争，角逐，比赛</p>
+<p>appetite [ap-表示to向，pet追求→渴求，渴望] 欲望，食欲</p>
+<p>81、phon<br>phon&#x3D;sound声音</p>
+<p>telephone [tele远，phon声音;’由远处(通过电波)传来的声音”] 电话</p>
+<p>otophone [oto耳，phon声音] 助听器</p>
+<p>82、pict<br>pict&#x3D;paint画，描绘</p>
+<p>picture [pict绘，-ure名词后缀] 绘画，图画，画像;图片</p>
+<p>depict [de-加强意义，pict绘] 描绘，描述</p>
+<p>83、plen<br>plen&#x3D;full满，全</p>
+<p>plenty [plen满→丰足，-ty表示情况，状态] 丰富，充足，大量</p>
+<p>plenilune [plen满，-i-，lun月亮] 满月，望月.月满之时</p>
+<p>84、plic<br>plic&#x3D;fold折，重叠</p>
+<p>complicate [com-加强意义，plic重叠，重复→多层，复杂，-ate动词后缀] 使复杂，变复杂;[-ate形容词后缀，…的] 复杂的</p>
+<p>multiplicate [multi-多，plic重叠，-ate，形容词后缀，…的] 多重的，多倍的，多样的</p>
+<p>85、pon<br>pon&#x3D;put放置</p>
+<p>postpone [post-后，pone放;’往后放”] 推后，推迟，延期</p>
+<p>compound [com-共同，一起，poun&#x3D;pon放;’放在一起的”] 混合的，化合的，混合物，化合物</p>
+<p>86、popul<br>popul&#x3D;people人民</p>
+<p>population [popul人民→居民，-ation名词后缀] 全体居民，人口</p>
+<p>populace [popul人民→平民，-ace名词后缀] 平民，大众</p>
+<p>87、port<br>port&#x3D;carry拿，带，运</p>
+<p>import [im-入，port拿，运;’拿进，运入”] 输入，进口</p>
+<p>export [ex-出，port运，拿;’运出去”] 输出，出口</p>
+<p>88、pos<br>pos&#x3D;put放置</p>
+<p>exposure [ex-出，外，pos放，摆;’摆出来”→把…亮出来，-ure名词后缀] 揭露，揭发，暴露</p>
+<p>deposit [de-下，pos放;’放下”→存放] 寄存，存放，存款，储蓄</p>
+<p>89、preci<br>preci&#x3D;price价值</p>
+<p>precious [preci价值，-ous形容词后缀，…的;’有价值的”] 宝贵的，珍贵的</p>
+<p>appreciate [ap-表示ar或to，preci价值，-ate动词后缀;’论价”] 评价，鉴赏，欣赏</p>
+<p>90、punct<br>punct&#x3D;point，prick点，刺</p>
+<p>punctuate [punct点，-u-，ate动词后缀] 加标点于，点标点</p>
+<p>punctual [punct点，-ual形容词后缀，…的;’着于一点的”→限于一点的→不偏不差的] 精确的，准确的，准时的</p>
+<p>91、pur<br>pur&#x3D;pure清，纯，净</p>
+<p>purify [pur纯净，-i-，-fy使] 使纯净，使洁净</p>
+<p>depurate [de-加强意义，pur洁净，-ate动词后缀，使成…] 使净化，净化，提纯</p>
+<p>92、rect<br>rect&#x3D;right，straight正，直</p>
+<p>correct [cor-表示加强意义，rect正，直] 改正，纠正，正确的</p>
+<p>incorrect [in-不，correct正确的] 不正确的</p>
+<p>93、rupt<br>rupt&#x3D;break破</p>
+<p>interrupt [inter-在…中间，rupt破→断] 中断，打断</p>
+<p>bankrupt [bank&#x3D;bench长凳，原指钱商用的长凳或台板，最初是作为钱商的柜台，rupt破，断;’钱商的柜台断了”→生意破产了] 破产的，破产者，使破产</p>
+<p>94、sal<br>sal&#x3D;salt盐</p>
+<p>salary [sal(salt)盐，-ary名词后缀，表示物，原为古罗马士兵所领取的’买盐的钱”，作为生活津贴，由此转为’工资”] 薪金，工资</p>
+<p>salad [sal盐，-ad名词后缀，表示物] 色拉，沙拉，一种用盐调拌的凉菜</p>
+<p>95、scend<br>scend，scens&#x3D;climb爬，攀</p>
+<p>ascend [a-&#x3D;ad-表示to，scend爬;’爬上”] 上升;登高，攀登</p>
+<p>descend [de-下，向下，scend爬] 下降，传下，遗传</p>
+<p>96、sci<br>sci&#x3D;know知</p>
+<p>science [sci知→知识，-ence表示抽象名词;’系统的知识”] 科学</p>
+<p>scientist [见上，字母拼写改变’ce→t，ist表示人] 科学家</p>
+<p>conscience [con-共同，完全，sci知，-ence名词后缀;’完成知道善恶是非之分”] 良心，道德心</p>
+<p>97、sec，sequ<br>sec，sequ&#x3D;follow跟随</p>
+<p>second [sec跟随;’跟随第一个之后”] 第二;[一小时第一次分为六十分，’第二次”再各分为六十秒] 秒</p>
+<p>sequacious [sequ跟随，随从，-acious形容词后缀，…的] 盲从的</p>
+<p>98、sect<br>sect&#x3D;cut切割</p>
+<p>insect [in-入内，sect切，割;’切入”，’切裂”→昆虫躯体分节，节与节之间宛如’切裂”，’割断”之状，故名] 昆虫</p>
+<p>section [sect切，-ion名词后缀，表示行为及行为的结果] 切开，切断，切下的部分，一部分;[由大机关中’分割”出来的小机关] 科，处，组，股</p>
+<p>99、sent<br>sent，sens&#x3D;feel感觉</p>
+<p>sentiment [sent感觉→感情，情绪，-i-，-ment名词后缀] 感情，情绪，思想感情，意见</p>
+<p>consensus [con-同，共同，sens感觉，认识，意见，-us名词后缀;’共同的认识”] 共识，意见一致</p>
+<p>sentence [sent感觉，-ence名词后缀;表达一种感觉或意义的一组单词] 句子</p>
+<p>100、sid<br>sid&#x3D;sit坐</p>
+<p>president [见上，-ent表示;’指挥者”，”统辖者”→首脑] 总统，大学校长，会长，总裁</p>
+<p>assiduous [as-&#x3D;ad-，表示at，sit坐，-uous的;’能坐下来坚持工作的”] 刻苦的，勤奋的</p>
+<p>101、sist<br>sist&#x3D;stand站立</p>
+<p>assist [as-表示at，sist立，’立于一旁”] 帮助，援助，辅助</p>
+<p>insist [in-加强意义，sist立;’坚定不移”] 坚决主张，坚持</p>
+<p>102、son<br>son&#x3D;sound声音</p>
+<p>sonic [son声音，-ic形容词后缀，…的] 声音的，音速的</p>
+<p>supersonic [super-超，son声音，ic形容词后缀，…的] 超音速的</p>
+<p>103、spect<br>spect&#x3D;look看</p>
+<p>respect [re-再，重复，spect看;’再看”，’重复地看”→重视，看重] 尊重，尊敬</p>
+<p>special [spec(&#x3D;spect)看→外观，形状，形象;-ial形容词后缀，…的;容易被’看”出的，外观明显的，形状特别醒目的] 特殊的，特别的</p>
+<p>specimen [spec(-spect)看，-i-，men名词后缀;’给人看的东西] 样品，样本，标本</p>
+<p>104、spir<br>spir&#x3D;breathe呼吸</p>
+<p>conspire [con-共同，spir呼吸;’共呼吸”→互通气息] 共谋，同谋，阴谋，密谋策划</p>
+<p>inspire [in-入，spir呼吸;’吸入”，吸气，注入→注入勇气，注入生气] 鼓舞，激励，吸入，使生灵感</p>
+<p>105、tail<br>tail&#x3D;cut切割</p>
+<p>tailor [tail切割→剪裁，-or表示人;剪裁者] 裁缝，成衣工，成衣商</p>
+<p>detail [de-加强意义，tail切;’切碎的”，由整体切碎细分而成的部分] 细节，细目，详情，零件</p>
+<p>106、tain，tan，tin<br>tain，ten，tin&#x3D;hold握，持，守</p>
+<p>sustain [sus-&#x3D;sub-下，tain握，持;’在下面支持”] 支持，支撑，维持，供养</p>
+<p>maintain [main&#x3D;man手，tain握，持;’to hold in the hand， to keep up，to uphold”] 保持，保存，维持，坚持，供养</p>
+<p>continue [con-共同，一起，tin退，持;’把前后各种事物保持在一起”→使连在一起，使相连] 连续，继续，使连续，使继续</p>
+<p>107、tect<br>tect&#x3D;cover掩盖</p>
+<p>detect [de-除去，取消，tect掩盖;’除去掩盖”→揭露秘密→查明真相] 侦查，侦察，发觉</p>
+<p>detection [见上，-ion名词后缀] 侦查，侦察，察觉</p>
+<p>108、tele<br>tele&#x3D;far远</p>
+<p>(tele现多用以表示与电波有关的事物)</p>
+<p>telecontrol [tele远，control控制] 远距离控制，遥控</p>
+<p>telephone [tele远，phon声音;’由远处通过电波传来的声音”] 电话</p>
+<p>109、tempor<br>tempor&#x3D;time时</p>
+<p>temporary [tempor时，-ary形容词后缀，…的;’?lasting for a time only”] 暂时的，临时的</p>
+<p>contemporary [con-同，tempor时→时代，-ary形容词后缀，…的] 同时代的，同龄的，当代的;[-ary表示人] 同时代的人，同年龄的人</p>
+<p>110、tend<br>tend(tends，tent)&#x3D;stretch伸</p>
+<p>attend [at-表示to向，tend伸;’to stretch one’s mind to”，’把精神或心思伸向…’] 注意，关心，出席</p>
+<p>attention [见上，tent&#x3D;tend，-ion名词后缀] 注意，关心，注意力</p>
+<p>111、terr<br>terr&#x3D;earth，land土地，陆地</p>
+<p>territory [terr土地，-it-，-ory名词后缀] 领土，领地</p>
+<p>terrace [terr土地，-ace名词后缀] 台地，地坪，平台，阳台</p>
+<p>112、text<br>text&#x3D;weave编织</p>
+<p>textile [text编织，-ile名词后缀，表示物] 纺织品;[-ile形容词后缀，…的] 纺织的</p>
+<p>pretext [pre-先，预先，text编织→编造;’预先编造的话”] 借口，托词</p>
+<p>113、tract<br>tract&#x3D;draw拉，抽，引</p>
+<p>tractor [tract拉，-or名词后缀，表示物] 拖拉机</p>
+<p>attract [at-&#x3D;ad-表示to，tract抽，引] 吸引，诱惑</p>
+<p>contract [con-共同，一起，tract拉;’把二者拉在一起”→使二者结合在一起] 订约，缔结，契约，合同;[‘共同拉紧”] 收缩，(使)缩小，收缩了的</p>
+<p>114、un<br>un&#x3D;one一(un也作uni)</p>
+<p>unite [un&#x3D;one一，单一，ite动词后缀，使成….;’使成为一个整体”] 统一，联合，团结</p>
+<p>uniform [uni单一，form形式，式样] 一样的，相同的，制服</p>
+<p>115 、urb<br>urb&#x3D;city</p>
+<p>suburb [sub,下,靠近,urb 城市；“城下”,“靠近城”→城外→]郊区,郊外,近郊,城外</p>
+<p>urban [urb城市，-an形容词后缀，…的] 城市的，都市的</p>
+<p>116、vac<br>vac&#x3D;empty空(vac也作vacu)</p>
+<p>vacant [vac空，-ant形容词后缀，…的] 空的，空白的，未被占用的</p>
+<p>vacuum [vacu空，-um名词后缀] 真空，真空状态，真空度</p>
+<p>117、vad<br>vad(vas)&#x3D;walk，go行走</p>
+<p>invade [in-入，vad走;’走入”→闯入] 侵入，侵略，侵犯</p>
+<p>invasion [见上，vad&#x3D;vas，-ion名词后缀，表示行为] 入侵，侵略</p>
+<p>118、vari<br>vari&#x3D;change</p>
+<p>variable [vari变化，-able形容词后缀，可…的] 可变的，反复不定的</p>
+<p>variety [vari变化，-ety名词后缀，表示情况，性质] 变化，多样化，种种</p>
+<p>vary [vari变化，i&#x3D;y] 改变，变化，变更</p>
+<p>119、ven<br>ven&#x3D;come来</p>
+<p>intervene [inter-之间，中间，ven来;’来到其间”→介入其中] 干预，干涉，介入</p>
+<p>convene [con-共同，一起，ven来;’召唤大家来到一起”] 召集(会议)，集合</p>
+<p>120、vert<br>vert，vers&#x3D;turn转</p>
+<p>anniversary [ann年，-i-，连接字母，vers转，-ary名词后缀;’时间转了一年”] 周年纪念日，周年纪念;[-ary形容词后缀，…的] 周年纪念的，周年的</p>
+<p>divorce [di-&#x3D;dis-分开，散，vorc&#x3D;vers转;’to turn apart”] 离婚，分离，脱离</p>
+<p>reverse [re-回，反→倒，vers转] 倒转，翻转，回复，反向</p>
+<p>version [vers转，-ion名词后缀;’转”→转换→由一种文字转换为另一种文字→转译→转译的文字] 译文，译本，翻译</p>
+<p>121、vi，via<br>vi，via&#x3D;way路</p>
+<p>obvious [ob-表示in(or on)，vi路，-ous形容词后缀，…的;’摆在大路上的”→大家都看得见的] 明显的，显而易见的，显著的</p>
+<p>previous [pre-先，前，vi路→走路，行走，-ous形容词后缀，…的;’going fore”→foregoing] 以前的，先前的</p>
+<p>via [via道路→经过…道路;’by the way of”] 取道，经由</p>
+<p>122、vis<br>vis，vid&#x3D;see看</p>
+<p>visit [vis看，观看→参观] 参观，游览，访问</p>
+<p>visa [vis看→审视，审查→审查后的签字] 签证，签准</p>
+<p>video [vid看;’可观看的图像”] 电视;电视的</p>
+<p>123、vit<br>vit&#x3D;life生命</p>
+<p>vital [vit生命，-al形容词后缀，…的] 生命的，有生命的，充满活力的，致命的，生命攸关的</p>
+<p>vitamin(e) [vit生命，amine胺(一种化合物);’维持生命之物”] 维生素，维他命</p>
+<p>124、viv<br>viv&#x3D;live活</p>
+<p>survive [sur-超过，viv活;’活得比别人长”，’寿命超过别人”] 比…活得长，后死，幸存，残存</p>
+<p>vivid [viv活，-id形容词后缀，…的] 活泼的，有生气的</p>
+<p>多认词根，多识单词（128个）<br>125、aer(o)空气，空中，航空<br>aerial [aer空气，-ial形容词后缀] 空气的，大气的，航空的</p>
+<p>aerogram [aero空中，gram书写→信;’空中信”] 无线电报，航空信件</p>
+<h6 id="alt高"><a href="#alt高" class="headerlink" title="alt高"></a>alt高</h6><p><strong>词源</strong>：源自拉丁语，意思是“高”或“深”。它与表示高度或深度的词汇相关。在英语中，这个词根经常出现在与高度、升高、改变或深度相关的单词中。</p>
+<p>以下是一些常见的包含词根“alt”的单词：</p>
+<ol>
+<li><p>表示<strong>高</strong></p>
+<ol>
+<li><p><strong>Altitude</strong>：<strong>alt</strong>（高） + <strong>-itude</strong>（度）</p>
+<ul>
+<li><strong>-itude</strong>，名词后缀， 表示 <strong>度</strong>，经度 longitude，纬度 latitude</li>
+<li>海拔，高度，通常指的是相对于海平面的高度。</li>
+<li>The airplane is flying at an altitude of 30,000 feet.（飞机在3万英尺的高度飞行。）</li>
+</ul>
+</li>
+<li><p><strong>Exalt</strong> - <strong>ex-</strong>（出，向上） + <strong>alt</strong>（高）</p>
+<ul>
+<li><strong>使变高</strong>，所以是 <strong>升高</strong> <strong>提高</strong>，提升，赞扬；使得更高或更尊贵。</li>
+<li>The crowd exalted the hero after his brave actions.（英雄的勇敢行为后，群众赞扬了他。）</li>
+</ul>
+</li>
+<li><p><strong>Altimeter</strong> - <strong>alt</strong>（高） + <strong>meter</strong>（测量仪器）</p>
+<ul>
+<li>测高仪，用于测量高度的仪器，尤其是在航空中。</li>
+<li>The pilot used the altimeter to determine the plane’s altitude.（飞行员使用测高仪来确定飞机的高度。）</li>
+</ul>
+</li>
+<li><p><strong>Alto</strong> - <strong>alt</strong>（高） + <strong>-o</strong>（表示某种类型）</p>
+<ul>
+<li>女低音或男高音，一种音高介于男中音和女高音之间的声部。</li>
+<li>She sings alto in the choir.（她在合唱团中唱女低音。）</li>
+</ul>
+</li>
+<li><p><strong>Altar</strong></p>
+<ul>
+<li><strong>词源</strong>: “Altar”来自拉丁语“altare”，意为“高处”或“祭坛”。表明祭坛通常是放置在高处的地方，用于宗教仪式。</li>
+<li><strong>释义</strong>: 祭坛，通常指宗教仪式中用来供奉的台或桌子。</li>
+<li><strong>例句</strong>: They placed flowers on the altar during the ceremony.（他们在仪式中将花放在祭坛上。）</li>
+</ul>
+<p><strong>Altar</strong> 这个单词更符合“alt”词根的含义，强调的是一种物理高度或神圣性。</p>
+</li>
+</ol>
+</li>
+<li><p>表示<strong>改变</strong></p>
+<ol>
+<li><strong>alterable</strong>，<strong>可以改变的</strong></li>
+</ol>
+</li>
+</ol>
+<p>这个词根可以帮助我们理解和记忆许多与高度、深度、升高相关的词汇。</p>
+<h6 id="holic"><a href="#holic" class="headerlink" title="holic"></a>holic</h6><p><strong>词源</strong>：“holic”并不是一个传统的词根，而是一个后缀，用于形成表示<strong>嗜好者</strong>或<strong>沉迷于某种事物的人</strong>的词汇。它源自阿拉伯语“حَلَقَة‎” (ḥalāqah)，经过法语演变为“alcoolique”，最终进入英语中，形成了像“alcoholic”这样的词。</p>
+<p>在现代英语中，“-holic”通常与不同的词根结合，表示对某种事物上瘾或痴迷的人。以下是一些常见的例子：</p>
+<ol>
+<li><p><strong>Alcoholic</strong> - <strong>alcohol</strong>（酒精） + <strong>-holic</strong>（沉迷者）</p>
+<ul>
+<li><strong>释义</strong>: 酒鬼，酗酒者。</li>
+<li><strong>例句</strong>: He is a recovering alcoholic.（他是一个正在戒酒的酗酒者）</li>
+</ul>
+</li>
+<li><p><strong>Workaholic</strong> - <strong>work</strong>（工作） + <strong>-holic</strong>（沉迷者）</p>
+<ul>
+<li><strong>释义</strong>: 工作狂，沉迷于工作的人。</li>
+<li><strong>例句</strong>: She is such a workaholic that she rarely takes vacations.（她是个工作狂，几乎不休假）</li>
+</ul>
+</li>
+<li><p><strong>Shopaholic</strong> - <strong>shop</strong>（购物） + <strong>-holic</strong>（沉迷者）</p>
+<ul>
+<li><strong>释义</strong>: 购物狂，沉迷于购物的人。</li>
+<li><strong>例句</strong>: His girlfriend is a shopaholic, always buying new clothes.（他女朋友是个购物狂，总是在买新衣服）</li>
+</ul>
+</li>
+<li><p><strong>Chocoholic</strong> - <strong>choco</strong>（巧克力） + <strong>-holic</strong>（沉迷者）</p>
+<ul>
+<li><strong>释义</strong>: 巧克力狂，特别喜欢吃巧克力的人。</li>
+<li><strong>例句</strong>: Being a chocoholic, she can’t resist a piece of chocolate cake.（作为一个巧克力狂，她无法抗拒巧克力蛋糕）</li>
+</ul>
+</li>
+</ol>
+<p><strong>总结</strong>: “-holic” 后缀用于描述对某种活动或物质有强烈迷恋或成瘾的人。在现代英语中，它已经广泛应用于各种非正式词汇中，用来形象地表达某人对某件事物的沉迷程度。</p>
+<p>127、am爱<br>amateur [am爱，-ateur&#x3D;-ator表示人] 业余爱好者</p>
+<p>amour [am爱→爱情，-our名词后缀] ,恋情</p>
+<p>128、ambul行，走<br>ambulance [ambul走，-ance名词后缀;跟随军队在野外’到处行走流动”的医院] 野战医院，流动医院 救护车</p>
+<p>ambulate [ambul走，-ate动词后缀] 行走，移动</p>
+<p>129、anim生命，活，心神，意见<br>animal [anim生命，活的，-al名词兼形容词后缀] 动物，动物的</p>
+<p>animation [anim生命，生气，-ation名词后缀] 生气;活跃</p>
+<p>130、anthrop(o)人，人类<br>anthropology [anthropo人类，-logy…学] 人类学</p>
+<p>philanthropy [phil爱，anthrop人类，-y表抽象名词;’爱人类”]慈善事业，博爱主义</p>
+<p>131、aqu水<br>aquarium [aqu水，-arium表示场所地点;’放养水生动物的地方”] 水族馆，养鱼池</p>
+<p>aquatic [aqu水，-atic形容词后缀，…的] 水的，水中的</p>
+<p>132、arch统治者，首脑archy统治<br>anarchy [an-无，archy统治→政府] 无政府状态</p>
+<p>patriarch [patri父，arch首脑，长] 家长，族长</p>
+<p>133、avi鸟<br>aviate [avi鸟→飞行，-ate动词后缀] 飞行，驾驶飞机</p>
+<p>aviator [avi鸟→飞行，-ator名词后缀，表示人] 飞行员，飞机驾驶员</p>
+<p>134、bat打<br>battle [bat打，-le动词后缀] 战斗，斗争;[转为名词] 战役，会战</p>
+<p>debate [de-加强意义， bat打;’打击”对方→驳倒对方] 争论，辩论</p>
+<p>135、biblio书<br>bibliographer [biblio书，graph写，-er人] 书目提要编著人</p>
+<p>bibliographize [biblio书，graph写，-ize动词后缀] 编写书目提要</p>
+<p>136、brig战斗，打<br>brigade [brig战斗，-ade名词后缀;’战斗的单位”] 旅，队</p>
+<p>brigand [brig打→劫掠，抡劫，-and名词后缀] 土匪，强盗</p>
+<p>137、cad，cas降落，降临<br>case [cas降;’突然降临的”，’偶然发生的”的情况] 情况，情形，状况</p>
+<p>occasion [oc-加强意义，cas降，-ion名词后缀;’偶然降临的”] 时机，机会，场合</p>
+<p>138、cert确实，确信<br>certain [cert确实，-ain形容词后缀] 确实的，确信的，一定的</p>
+<p>certainly [见上，-ly副词后缀，…地] 确实地，一定地，当然地</p>
+<p>certainty [见上，-ty名词后缀] 确实，必然，肯定，必然的事</p>
+<p>139、chron时<br>chronic [chron时间，-ic…的;’拖长时间的”] 长时间的，长期的，(疾病)慢性的</p>
+<p>chronicity [见上，-icity名词后缀] 长期性，慢性</p>
+<p>140、cid降落，降临<br>accident [ac-加强意义，cid降;’偶然降临的事”] 偶然的事，意外的事</p>
+<p>incident [in-加强意义，cid降;’突然降临的事”] 事变，事件</p>
+<p>141、clin倾<br>decline [de-加强意义， clin倾] 倾斜，下倾，衰落</p>
+<p>incline [in-加强意义，clin倾] 倾斜，倾向于，偏爱，喜爱</p>
+<p>142、cosm(o)世界，宇宙<br>cosmonaut [cosmo宇宙，naut船→航行者] 宇宙航行员</p>
+<p>cosmos 宇宙</p>
+<p>143、cracy统治<br>crat支持(或实行)…统治的人</p>
+<p>democracy [demo人民，cracy统治;’人民统治”→人民做主] 民主，民主主义，民主政治，民主政体</p>
+<p>democrat [demo人民，crat主张…统治的人] 民主主义者</p>
+<p>144、cub躺，卧<br>cubicle [cub卧，-icle名词后缀，表示小;’睡觉”的地方] 小卧室，小室</p>
+<p>incubate [in-加强意义， cub卧，伏，-ate动词后缀;’伏卧在卵上”] 孵卵，伏巢，孵化</p>
+<p>145、cult耕，培养<br>cultivate [culti耕，培养，-ate动词后缀] 耕作，养殖，培养</p>
+<p>culture [cult培养，培养，-ure名词后缀;’由教养所形成的”] 文化</p>
+<p>146、cycl(c)圆，环，轮<br>unicycle [uni单一，独，cycl轮] 独轮脚踏车</p>
+<p>bicycle [bi-两，二，cycl轮;’两轮车”] 自行车</p>
+<p>tricycle [tri三，cycl轮] 三轮脚踏车，三轮摩托车</p>
+<p>auotcycle [auto-自己→自动，cycl轮→车] 摩托车，机器脚踏车</p>
+<p>147、dem(o)人民<br>democracy [demo人民，cracy统治;’人民统治”→人民做主] 民主，民主政治，心政体，民主主义</p>
+<p>democrat [见上，crat主张…统治的人] 民主主义者</p>
+<p>148、dexter右<br>dexter 右边的，右侧的</p>
+<p>dexterous [dexter右，-ous形容词后缀，…的;右手比左手灵巧敏捷] 灵巧的，敏捷的，伶俐的</p>
+<p>149、doc教<br>doctor [doc教→指教，-or人;’指教者”] 医生，博士</p>
+<p>docent [doc教，-ent名词后缀，表示人] 教员，讲师</p>
+<p>150、dom屋，家<br>domestic [dom屋，家，-tic形容词后缀，…的] 家里的;(引申为)国内的</p>
+<p>domesticity [见上，-ity名词后缀] 家庭生活</p>
+<p>151、dorm睡眠<br>dormitory [dorm睡眠，-ory名词后缀，表场所，地点] 集体寝室，社会公德</p>
+<p>dormitive [dorm睡眠，-ive名词及形容词后缀] 安眠的;安眠药</p>
+<p>152、drom跑<br>aerodrome [aero航空→飞机，drom跑;’路飞机的地方”] 飞机场</p>
+<p>motordrome [motor汽车，drom跑;’跑汽车的地方”] 汽车比赛场，汽车试车场</p>
+<p>153、ego我<br>ego 自我，自负</p>
+<p>egoism [ego自我，-ism主义] 自我主义，利已主义</p>
+<p>154、err漫游，走，行<br>errant [err漫游，-ant形容词后缀，…的] 周游的，飘泊的</p>
+<p>error [err漫游，走→走离正道→走错，-or抽象名词后缀] 错误，谬误</p>
+<p>155、fabl，fabul言<br>fable [fabl言] 寓言，传说</p>
+<p>fabulist [fabul言，-ist…人] 寓言家，撒谎者</p>
+<p>156、feder联盟<br>federate [feder聪明，-ate形容词兼动词后缀] 同盟的，联邦的;(使)结成联盟(成联邦)</p>
+<p>federation [feder联盟，-ation名词后缀] 聪明，同盟，联合会，联邦政府</p>
+<p>157、ferv沸，热<br>fervid [ferv热，-id形容词后缀，…的] 炽热的，热情的，热烈的</p>
+<p>fervor [ferv热，-or抽象名词后缀] 炽热，热情，热烈</p>
+<p>158、fict，fig塑造，虚构<br>fiction [fict虚构，杜撰，-ion名词后缀] 虚构，杜撰，捏造;[虚构的事] 小说</p>
+<p>figure [fig塑造，制作，-ure名词后缀，’制作出来”的样子，’塑造成”的形状] 外形，轮廓，塑像，形象</p>
+<p>159、fid信任<br>confidence [con-加强意义，fid信任，-ence名词后缀] 信任，信心，自信</p>
+<p>self-confidence [self自己，confidence信任，信心] 自信</p>
+<p>160、fil线<br>file [fil线，’人或物排列成一条线”] 行列，纵列</p>
+<p>profile [pro-向前，fil线→线条;’用线条勾画”] 描画…的轮廓，外形，轮廓，侧面像</p>
+<p>161、flat吹<br>inflate [in-入，flat吹;’吹入气体”] 使充气，使膨胀，使通货膨胀</p>
+<p>inflator [见上，-or表示人或物] 充气者，充气机，打气筒</p>
+<p>162、flect，flex弯曲<br>reflect [re-回，flect弯曲;’弯回”折回，返回] 反射，反映</p>
+<p>flex 弯曲，折曲</p>
+<p>163、flict打击<br>afflict [af-表示at，to等意义，flict打击] 使苦恼，折磨</p>
+<p>conflict [con-共同，flict打击，’共同打”→彼此互打] 冲突，战斗，交锋，斗争</p>
+<p>164、frag，fract破，折<br>fragment [frag破，-ment名词后缀，表示物] 碎片，破片，碎块</p>
+<p>fraction [fract破，折，-ion名词后缀] 小部分，片断，分数</p>
+<p>165、frig冷<br>frigidity [firg寒冷，-idity名词后缀] 寒冷，冷淡</p>
+<p>refrigerator [见上，-or表示物] 冰箱，冷冻机，冷藏库</p>
+<p>166、fug逃，散<br>refuge [re-回，fug逃;’逃回”到安全地方] 避难</p>
+<p>lucifugous [luci光，fug逃避，-ous…的] 避日光的</p>
+<p>167、fund，found底，基础<br>fund [fund基础;’创办事业的基础”，’底子”→本钱] 基金</p>
+<p>found [found基础] 为(房屋等)打基础，建立，创立</p>
+<p>founder [见上，-er者] 奠基者，创立者</p>
+<p>foundress [见上，-ress表示女性] 女奠基者，女创立者</p>
+<p>168、gam婚姻<br>monogamy [mono-单一，gam婚姻，-y名词后缀;’单婚”，一夫一妻] 一夫一妻制</p>
+<p>bigamy [bi-双，重，gam婚姻，-y名词后缀] 重婚(罪)</p>
+<p>169、gran谷物，谷粒<br>granary [garn谷物， -ary表示场所，地点] 谷仓，粮仓，产粮区</p>
+<p>grange [gran谷物;’生产谷物的地方”] 农场，农庄，田庄</p>
+<p>170、grav重<br>gravid [grav重，-id…的;’负重的”，’重身子”，’heavy with child”] 怀孕的，妊娠的</p>
+<p>grave [grav重] 重大的，严重的</p>
+<p>171、greg群，集合<br>congregate [con-共同，greg集合，-ate动词兼形容词后缀] (使)集合;集合在一起的，集体的</p>
+<p>segregate [se-分开，离开，greg群，-ate动词后缀;’离群”，’离开集体”] (使)分离，(使)分开，使隔离</p>
+<p>172、gyn，gynec(o)妇女<br>gynecology [gyneco妇女，-logy…学] 妇科学，妇科</p>
+<p>philogyny [philo爱好，gyn妇女，-y名词后缀] 对女人的爱好，爱女人</p>
+<p>173、hal呼吸<br>inhale [in-入，hal呼吸;’to breathe in”] 吸入，吸气</p>
+<p>exhale [ex-出，hal呼吸;’to breathe out”] 呼出，呼气</p>
+<p>174、helic(o)螺旋<br>helicopter [helico螺旋，旋转，pter翼;’装有旋转的翼”，利用”旋翼”飞行] 直升飞机</p>
+<p>heliport [heli&#x3D;helicopter] 直升飞机场</p>
+<p>175、hes，her粘着<br>hesitate [hes粘着，-it-，-ate动词后缀;’粘着”在固定地方→踌躇不前，裹足不前] 踌躇，犹豫</p>
+<p>adhere [ad-表示at ，to，her粘] 粘附，胶着，依附</p>
+<p>176、ign火<br>ignite [ign火，-ite动词后缀] 点燃，点火于，使燃烧，着火</p>
+<p>ignition [ign火，-ion名词后缀] 点火，着火</p>
+<p>177、integr整，全<br>integral [integr整，全，-al…的] 完整的，整体的</p>
+<p>integrality [见上，-ity名词后缀] 完整性，完全</p>
+<p>178、junct连接，连结<br>junction [junct连接，-ion名词后缀] 连接，接合，接合点</p>
+<p>adjunction [见上，-ion名词后缀] 附加，添加</p>
+<p>179、later边<br>unilateral [uni单独，later边，-al…的] 一边的，单边的，一方的，片面的，单方面的</p>
+<p>multilateral [multi-多，见上] 多边的，涉及多方面的</p>
+<p>180、leg①读<br>legible [leg读， -ible可…的] 可读的，易读的</p>
+<p>legend [leg读，-end名词后缀;’读物”] 传奇，小说，传奇文学</p>
+<p>181、leg②，legis法<br>legal [leg法，-al…的] 法律上的，合法的</p>
+<p>legislature [见上，-ure名词后缀] 立法机关</p>
+<p>182、luc光<br>lucent [luc光，-ent形容词后缀] 发亮的，透明的</p>
+<p>lucency [luc光，-ency名词后缀] 发亮，透明</p>
+<p>183、lumin光<br>illuminate [il-加强意义，lumin光，-ate动词后缀] 照亮，照明，阐明，使明白</p>
+<p>relumine [re-再，lumeni光→照] 重新点燃，使重新照亮</p>
+<p>184、magn(i)大<br>magnify [magni大，-fy使…] 放大，扩大</p>
+<p>magnifier [见上，-er者] 放大者，放大器，放大镜</p>
+<p>185、matr(i)，metro母<br>matriarch [matri母→女性，arch首脑，长] 女族长，女家长</p>
+<p>matron [matr母，-on名词后缀] 主妇，老妇</p>
+<p>186、mega大<br>megaphone [mega大，扩大，phon声音] 扩音器，喇叭筒，喊话筒</p>
+<p>megascope [mega大，scop镜] 大显微镜</p>
+<p>187、mens测量<br>immense [im-不，无，mens测量;’无法测量”其大小的，’不能测量”的] 广大无边的，巨大的，无限的</p>
+<p>mensurable [mens测量，-able可…的] 可测量的</p>
+<p>188、ment心，神，智，思，意<br>mental [ment心，智，精神，-al…的] 智力的，精神的，思想的，内心的</p>
+<p>mention [ment意识→注意;’使注意”，’使意识到”→提到，提及] 说起，提到，论及</p>
+<p>189、min伸出，突出<br>prominent [pro-向前，min突出，-ent…的] 突出的，显著的，杰出的，卓越的，著名的</p>
+<p>eminent [e-出，外，min突出，-ent…的] 杰出的，突出的，著名的</p>
+<p>eminence [见上，-ence名词后缀] 杰出，卓越，著名</p>
+<p>190、misc混合，混杂<br>miscellanist [misc混杂，-ist者] 杂集作者，杂文家</p>
+<p>miscegenation [misc混杂，-e-，gen生殖→种族，-ation名词后缀] 人种混杂，混血</p>
+<p>191、mis(o)恨，厌恶<br>misanthropy [mis厌恶，anthrop人类，-y名词后缀] 厌恶人类，厌世，愤世嫉俗</p>
+<p>misoneism [miso厌恶，ne&#x3D;neo新，-ism主义] 厌新，守旧主义</p>
+<p>192、mon①告诫，提醒<br>monument [mon告诫，提醒→不要忘记→记住→纪念，-u-，-ment名词后缀，表示物;’纪念之物”] 纪念碑，纪念像，纪念物</p>
+<p>monitor [mon告诫，-itor名词后缀，表示人;’告诫者”，’劝告者”] (学校的)班长，级长，监督睡，提醒者，告诫者</p>
+<p>193、mon②单独，一个<br>monk [mon单独，孤独→孤身一人，独身者，过孤独生活者] 僧侣，修道士，出家人</p>
+<p>monkery [见上，-ery表示地方，场所] 修道院，寺院</p>
+<p>194、mur墙<br>mural [mur墙壁，-al形容词及名词后缀] 墙壁的，墙壁上的;壁画</p>
+<p>mure [mur墙;’用墙围起来”] 监禁，禁锢</p>
+<p>195、mut变换<br>mutual [mut变换→交换→互相之间，-ual…的] 互相的，彼此的</p>
+<p>commute [com-共同，mut交换] 变换，用…交换</p>
+<p>196、nat诞生<br>nation [nat生，-ion名词后缀;生，诞生，生长→血统的联系，种族] 民族，国家</p>
+<p>native [nat出生，-ive名词兼形容词后缀] 天生的，土生的，出生地的，出生的;本地人，土人</p>
+<p>197、nav船<br>navy [nav船→船队→舰队，-y名词后缀] 海军</p>
+<p>naval [nav船→军舰，-al…的] 船的，军舰的，海军的</p>
+<p>198、nect，nex结，系<br>connect [con-共同，一起，nect结，系;’结在一起”] 连结，连接，把…联系起来</p>
+<p>annex [an-表示to，nex结;’连结在一起”，’结合起来”] 合并，并吞，兼并(领土等)，附加</p>
+<p>199、negr，nigr黑<br>Negro [negr黑，-o名词后缀，表示人] 黑人</p>
+<p>Negress [negr黑，-ess表示女性] 女黑人</p>
+<p>200、nihil无<br>annihilate [an-加强意义，nihil无，不存在→消亡，-ate动词后缀，使…;’使消亡”] 消灭，歼灭</p>
+<p>nihilism [nihil无→虚无，ism主义] 虚无主义</p>
+<p>201、noc，nox伤害<br>innocent [in-不，无，noc伤害，-ent…的;’incapable of doing harm”→guiltless，”不会做出伤害之事”] 无罪的，清白的，天真的，无害的</p>
+<p>nocent [noc伤害，-ent…的] 有害的，有毒的，加害的，有罪的</p>
+<p>202、noct(i)夜<br>noctiflorous <a href="%E6%A4%8D%E7%89%A9"> nocti夜,flor花,-ous…的</a>夜间开花的</p>
+<p>noctiluca [ nocti夜,luc光,-a名词后缀]夜光虫</p>
+<p>203、norm规范，正规，正常<br>normal [norm正规，-al…的] 正规的，正常的</p>
+<p>abnormal [ab-离开，normal正常的] 反常的，变态的，不规则的</p>
+<p>204、nutri营养<br>nutriology [nutri营养，-o-，连接字母，-logy学] 营养学</p>
+<p>nutriment [nutri营养，-ment名词后缀，表示物] 营养品</p>
+<p>205、orn装饰<br>adorn [ad-加强意义，orn装饰] 装饰，打扮，使生色</p>
+<p>adornment [见上，-ment名词后缀] 装饰，装饰品</p>
+<p>206、par生，产<br>parent [par生，生养，-ent名词后缀，表示人;’生养子女的人”，’生育者”] 父亲，母亲[复数]双亲，父母</p>
+<p>parentage [见上，-age抽象名词后缀] 出身，家系，门第</p>
+<p>207、parl说，谈<br>parliament [parl说，谈→议论→商议商谈→会议，-ia-，-ment名词后缀] 议会，国会</p>
+<p>parlance [parl说，-ance名词后缀] 说法，用语，发言，讲话</p>
+<p>208、past喂，食<br>pasture [past喂，食，-ure表示行为，事物;’喂牛、羊”，’牛羊吃草”] 放牧，牧场;[转为动词] (牛、羊)吃草，放(牛、羊)吃草</p>
+<p>pasturage [见上，-age表示行为] 放牧;[-age表示场所] 牧场</p>
+<p>paste [past食，吃;一种’食物”] (做点心用的)加油脂的面团，面糊，糊状物，浆糊</p>
+<p>209、paht(o)，pathy疾病，疗法<br>pathology [patho病，-logy…学] 病理学</p>
+<p>zoopathology [zoo动物，pathology病理学] 动物病理学</p>
+<p>210、patr(i)父，祖<br>patriarch [patri父，祖，arch首脑，长] 家长，族长</p>
+<p>patriot [patri祖→祖国，-ot名词后缀，表示人] 爱祖国者，爱国主义者</p>
+<p>211、ped①脚，足<br>expedition [ex-出外，ped足→行走，-ition名词后缀;’出行”→远行] 远征，远征队</p>
+<p>biped [bi-两个，ped足] 两足的，两足动物</p>
+<p>centipede [centi-百，ped足;’百足”虫] 蜈蚣</p>
+<p>impede [im-入，入内，ped脚;’插入一脚”→制造阻碍→阻挡] 阻止，妨碍，阻碍</p>
+<p>212、ped②儿童，小孩<br>pedagogy [ped儿童，agog引导，-y名词后缀;’引导儿童的方法”→教育儿童的方法] 教育学，教学法</p>
+<p>pedagogics [见上，-ics学] 教育学，教学法</p>
+<p>213、petr(o)石<br>petroleum [petr石，ol(e) 油，-um名词后缀] 石油</p>
+<p>petrify [petri石，-fy使…化] 使石化</p>
+<p>214、phag吃<br>anthropophagous [anthropo人，phag吃，-ous…的] 食人肉的</p>
+<p>215、phil(o)爱<br>philanthropy [phil爱，anthrop人类，-y名词后缀;’爱人类”] 博爱主义，慈善，善心</p>
+<p>philanthropist [见上，-ist者] 慈善家</p>
+<p>216、phob(ia)怕<br>photophobia <a href="%E5%8C%BB">photo光，phob怕，-ia名词后缀</a> 怕光，畏光，羞明</p>
+<p>217、plex重叠，重<br>complex [com-共同，plex重叠，重复→多重，复杂] 复杂的，综合的</p>
+<p>multiplex [multi-多，plex重] 多重的，多样的，复合的</p>
+<p>218、polis城市<br>necropolis [necro死尸，polis城;’死者之城”] 坟地</p>
+<p>megalopolis [megalo特大，polis城] 特大的城市</p>
+<p>219、prim第一，最初<br>primacy [prim第一，-acy名词后缀] 第一位，首位</p>
+<p>primitive [prim最初，-itive…的] 原始的，早期的</p>
+<p>220、radic根<br>radical [radic根，-al…的] 根本的，基本的;[转为名词] 根部，基础</p>
+<p>eradicate [e-除去，radic根，-ate动词后缀] 根除，除根，斩根，连根拨</p>
+<p>221、ras，rad擦，刮<br>erase [e-去，除，ras擦，刮] 擦去，抹掉，除去</p>
+<p>eraser [见上，-er表示物] 擦除器(如黑板擦，橡皮等)</p>
+<p>abrade [ab-离开，去，rad擦] 擦掉，磨掉，磨，擦</p>
+<p>222、rid，ris笑<br>ridicule [rid笑，-icule名词后缀] 嘲笑，嘲弄，奚落</p>
+<p>ridiculous [见上，-ous…的] 可笑的，荒谬的</p>
+<p>risible [ris笑，-ible可…的] 爱笑的，能笑的，可笑的</p>
+<p>223、rod，ros咬，啮<br>corrode [cor-表加强意义，rod咬→咬坏→侵蚀] 腐蚀，侵蚀</p>
+<p>corrodible [见上，-ible可…的] 可腐蚀的，可侵蚀的</p>
+<p>erode [e-去…掉，rod咬;’咬掉”，’咬坏”] 腐蚀，侵蚀</p>
+<p>224、rot轮，转<br>rotary [rot轮，转，-ary名词及形容词后缀] 旋转的</p>
+<p>rotate [rot轮，转，-ate动词后缀] 旋转，轮流，循环</p>
+<p>225、rud原始，粗野<br>rude 原始(阶段)的，未开化的，粗野的</p>
+<p>rudeness [见上，-ness名词后缀] 原始，粗野</p>
+<p>226、rur，rus农村<br>rural [rur乡村，农村，-al的] 农村的，田园的</p>
+<p>rurality [见上，-ity名词后缀] 农村景色，田园风味</p>
+<p>227、sat，satis，satur足，满，饱<br>satiety [sat饱，-i-，-ety抽象名词后缀] 饱足，过饱</p>
+<p>satisfy [satis满，-fy动词后缀，使…] 使满足，使满意</p>
+<p>saturable [satur饱，-able可…的] 可饱和的</p>
+<p>228、sen老<br>senior [sen老→年长， -ior形容词及名词后缀] 年长的，年纪较大的，年长者</p>
+<p>senate [sen老，-ate名词后缀] 参议院，上议院，(古罗马的)元老院议员</p>
+<p>229、simil，simul相似，相同<br>similar [simil相似，-ar…的] 相似的，类似的，相似的东西</p>
+<p>simulate [simul相似，-ate动词后缀;’作出相似的样子”] 模仿，模拟，假装，冒充</p>
+<p>230、sol①单独<br>sole 单独的，唯一的</p>
+<p>solitary [见上，-ary…的] 单独的，独居的</p>
+<p>231、sol②太阳<br>solar [sol太阳，-ar形容词后缀，…的] 太阳的，日光的</p>
+<p>insolate [in-构成动词，sol太阳，-ate动词后缀] 曝晒</p>
+<p>232、soph智慧<br>philosopher [philo爱，soph智慧→知识，哲理，-er者] 哲学家，思想家</p>
+<p>philosophy [见上，-y名词后缀] 哲学，哲理</p>
+<p>233、sper希望<br>desperate [de-否定，失去，无，sper希望，-ate形容词后缀，…的] 失望的，无望的，绝望的;(因绝望而)不顾一切的，拼死的</p>
+<p>despair [de-否定，失去，无，spair&#x3D;sper希望] 绝望，捻，失去信心</p>
+<p>234、spers，spars散，撒<br>disperse [di-&#x3D;dis-分开，spers散] 分散，散开，使分散</p>
+<p>sparse [spars散→散开→稀疏] 稀少的，稀疏的</p>
+<p>235、splend发光，照耀<br>splendid [splend发光，-id形容词后缀，…的] 有光彩的，灿烂的，辉煌的，显著的，杰出的</p>
+<p>splendent [splend发光，-ent形容词后缀，…的] 发亮的，有光泽的，辉煌的，显著的</p>
+<p>236、stell星<br>stellar [stell星，-ar形容词后缀，…的] 星的，星球的，星形的，似星的</p>
+<p>interstellar [inter-中间，际，stell星，-ar…的] 星际的</p>
+<p>237、tact，tag触<br>contact [con-共同，tact触] 接触，联络，联系</p>
+<p>contagion [con-共同，tag触，-ion名词后缀] 接触传染;传染病</p>
+<p>238、the(o)神<br>theology [theo神，-logy…学] 神学</p>
+<p>atheism [a-无，theism] 无神论</p>
+<p>atheist [见上，-ist者] 无神论者</p>
+<p>239、ton音<br>tonality [ton音，-ality名词后缀] 音调</p>
+<p>tone [ton音] 音，音调，调子</p>
+<p>240、tort扭<br>torture [tort扭→扭弯→折→折磨，-ure名词后缀] 拷打，折磨，严刑，痛苦;[转为动词] 拷打，使痛苦，拷问，折磨，刑讯;[扭→扭歪] 歪曲，曲解</p>
+<p>distort [dis-离，tort扭;’扭离正形”] 弄歪(嘴脸等)，使变形，歪曲，曲解(事实)</p>
+<p>241、tour迂回，转<br>tour [‘迂回”而行，到处;转”游] 旅游，游历</p>
+<p>tourism [见上，-ism名词后缀，表示行为] 旅游，导游业</p>
+<p>242、trud，trus推，冲<br>intrude [in-入，trud冲，闯;’闯入”，’冲入”] 侵入，入侵，闯入</p>
+<p>extrusion [见上，-ion名词后缀] 逐出，喷出，挤压</p>
+<p>243、tut，tuit监护，看管<br>tutor [tur监护，看管→管教，指导，-or者;’指导儿童者”，’管教儿童者”] 家庭教师，指导教师，监护人</p>
+<p>tutee [tur监护，看管→管教，指导，-ee被…的人] 被教导者，被指导者，学生</p>
+<p>244、umbr阴影<br>umbrella [umbr阴影，-ella名词后缀，表小;’遮有小阴影之物”] 伞</p>
+<p>umbrage [umbr阴影，-age名词后缀] 树荫，荫影</p>
+<p>245、ut，us用<br>utility [ut用，-ility名词后缀] 效用，有用，实用，功利</p>
+<p>usage [us用，-age名词后缀] 使用，用法</p>
+<p>246、vag走，漫游<br>extravagant [extra-以外，vag漫步，走-ant…的;’走出范围之外的”→超出范围的] 过分的，过度的，无节制的，奢侈的，浪费的</p>
+<p>vague [vag漫游，游荡→游移不定→(语义)不确定，不明确] 含糊的，不明确的</p>
+<p>247、val强<br>invalid [in-不，val强，-id形容词后缀，..的;’不强壮的”] 病弱的，伤残的，病人，伤病员</p>
+<p>valiant [val强→勇，-iant&#x3D;-ant…的] 勇敢的，勇猛的，英勇的</p>
+<p>248、van空，无<br>vanish [van空，无，-ish名词后缀] 突然不见，逐渐消散，消失</p>
+<p>vanity [van空，-ity名词后缀] 空虚，虚夸，虚荣心</p>
+<p>249、ver(i)真实<br>very [ver真实，-y形容词后缀，…的] 真实的，真正的，真的，十足的</p>
+<p>verify [veri真实，-fy动词后缀] 证实，核实，查证</p>
+<p>250、voc，vok声音，叫喊<br>vocal [voc声，-al…的] 有声的，用语言表达的，口述的，歌唱的</p>
+<p>revoke [re-回，vok叫;’叫回”] 撤回，撤销</p>
+<p>251、vol，volunt意志，意愿<br>volition [vol意志，-ition名词后缀] 意志，意志力</p>
+<p>volunteer [volunt意志，志愿，-eer者] 自愿参加者，志愿者，志愿兵</p>
+<p>252、volu，volv滚，转<br>evolve [e-出，外，volv滚;’向外滚动”→向前滚进] 进化，使进化，进展，演化</p>
+<p>evolution [见上，-iton名词后缀] 进化，进展，演化</p>
+<h2 id="前缀-后缀总结"><a href="#前缀-后缀总结" class="headerlink" title="前缀-后缀总结"></a>前缀-后缀总结</h2><p><strong>一个英语单词可以分为三个部分：前缀，词根，后缀；单词中位于词根前面的部分就是前缀，前缀可以改变单词的意思。后缀又称词尾，是一种后置于其他词素后的词缀。</strong></p>
+<p>第一部分 英语单词前缀<br>1、a- 在……之上<br>aboard prep. 在（船、飞机、车）上</p>
+<p>2、ab-, abs- 离开，偏离<br>abnormal a. 反常的</p>
+<p>3、anti- 先<br>anticipate vt. 预期</p>
+<p>4、ac-, ad-, af-, ag-, ap-, ar-, as-, at-表加强意<br>accuse vt. 指控</p>
+<p>5、bene- 好<br>beneficial a. 有益的</p>
+<p>6、bio- 生命<br>biology n. 生物学</p>
+<p>7、cata- 向下<br>catalog(ue) n. 目录</p>
+<p>8、col-, com-, con-, co-, cor- 共同，一起<br>combat n. 战斗</p>
+<p>9、contra- 相反<br>contrast v. 对比，对照</p>
+<p>10、de- 离；加强词意<br>depart vi. 离开；背离</p>
+<p>11、di-, dif-, dis- 分开<br>discard vt. 丢弃</p>
+<p>12、dia- 穿过<br>diameter n. 直径</p>
+<p>13、e-, ef-, ex- 出，出来<br>export v. 出口</p>
+<p>14、em-, en- 在……之中；使……<br>enclose vt. 围住</p>
+<p>15、fore- 前<br>forehead n. 前额</p>
+<p>16、i-, il-, im-, in- 不<br>indifferent a. 不关心的</p>
+<p>17、im-, il- 在……上<br>impose vt. 把……强加于</p>
+<p>18、in- 进入；向……<br>indicate vt. 表明，示意</p>
+<p>19、inter- 在……之间<br>interfere vi. 干涉</p>
+<p>20、micro-, mini- 小<br>microwave n. 微波</p>
+<p>21、multi- 许多<br>multiple a. 复合的，多重的</p>
+<p>22、non- 不<br>nonsense n. 废话</p>
+<p>23、ob-, op- 相反<br>oppose vt. 反对</p>
+<p>24、out- 向外，出来<br>outlet n. 出口</p>
+<p>25、over- 越过<br>overlook vt. 忽视</p>
+<p>26、per- 穿过<br>perspective n. 视角</p>
+<p>27、pre- 在…之前<br>pregnant a. 怀孕的</p>
+<p>28、pro- 向前<br>promote vt. 促进</p>
+<p>29、re- 向后；再次<br>recall vt. 回忆起</p>
+<p>30、semi- 半<br>semiconductor n. 半导体</p>
+<p>31、sub- 在……下<br>subway n. 地铁</p>
+<p>32、super- 在……之上，超级的<br>superior a. 优于……的</p>
+<p>33、trans- 横过，越过<br>transplant vt. 移栽</p>
+<p>34、tri- 三<br>triangle n. 三角</p>
+<p>35、twi- 表示二、两<br>36、un- 不<br>uncover vt. 揭露</p>
+<p>37、under- 在……下面，低于……<br>underline vt. 在……下面划线</p>
+<p>38、uni- 一个<br>unique a. 唯一的，独特的</p>
+<p>39、vice- 表示副<br>40、with- 表示向后，相反<br>41、常见数字前缀<br>一，单，独：mon- &#x2F;uni-</p>
+<p>二，du- &#x2F;duo- &#x2F;twi- &#x2F;bi- &#x2F;bin- &#x2F;bis- &#x2F;pen-</p>
+<p>三，tre-&#x2F;tri- &#x2F;</p>
+<p>四，quart-</p>
+<p>五，penta-&#x2F;pent-</p>
+<p>六，semester-&#x2F; hexa-</p>
+<p>七，septem-&#x2F;hepta-</p>
+<p>八，oct-</p>
+<p>九，ennea-&#x2F;nov- &#x2F;non-</p>
+<p>十，deca-</p>
+<p>百，hecto-</p>
+<p>千，kilo-</p>
+<p>万，myri-</p>
+<p>大，mega-&#x2F;mlcro-&#x2F; macro-&#x2F;magni-</p>
+<p>小，micro-&#x2F;mini-</p>
+<p>多数，multi-&#x2F;poly-</p>
+<p>分数，deci-&#x2F;milli- &#x2F;cent-</p>
+<p>一半：hemi- &#x2F;semi-</p>
+<p><strong>参考地址：</strong><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/46308f04ee5a">整理：常见词根词缀 - 简书</a></p>
+<p>第二部分 英语单词后缀<br>1、动词后缀：-ate,-en, -(i)fy, -ish, -ize&#x2F;ise<br>2、副词后缀：-ly,-ward(s), -way(s)、-wise<br>3、形容词后缀：-able&#x2F;ible,-full, -、-ive、-ful、-ous、-able、-less、-ant、-ent、-ed、-ish、-like、-ly、-ic、-al、-ial、-ical<br>4、名词后缀：-ability，-acity，-ain，-aire，-ance，-ation，-dom，-ence，-eer，-ine，-kin<br>5、表示“人”的名词后缀：-ist,-man, -er&#x2F;or, -ee, -ant<br>6、表示“小”的名词后缀：-el,-let, -(c)ule<br>7、抽象名词后缀：-ion,-hood, -ic(s), -ism, -ship, -ty<br>8、名词后缀：-ion、-tion、-ation、-sion、-ance、-ence、-ant、-ent、-ing、-age、-ade、-an、-dom、-logy、-hood<br>9、否定后缀<br><strong>参考地址：</strong><a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/1e2109d5370cba1aa8114431b90d6c85ec3a8800.html">英语常见词缀总结 - 百度文库</a></p>
+<h2 id="学习词根词缀的二个好地方"><a href="#学习词根词缀的二个好地方" class="headerlink" title="学习词根词缀的二个好地方"></a>学习词根词缀的二个好地方</h2><h3 id="1-词根词源字典"><a href="#1-词根词源字典" class="headerlink" title="1.词根词源字典"></a>1.词根词源字典</h3><p><a target="_blank" rel="noopener" href="https://www.etymonline.com/cn">词源在线 | 英语词源词根词典 (etymonline.com)</a></p>
+<h3 id="2-词根字典"><a href="#2-词根字典" class="headerlink" title="2.词根字典"></a>2.词根字典</h3><p><a target="_blank" rel="noopener" href="http://www.cgdict.com/">http://www.cgdict.com/</a></p>
+<h2 id="可借鉴相关资源"><a href="#可借鉴相关资源" class="headerlink" title="可借鉴相关资源"></a>可借鉴相关资源</h2><p>英语词根词缀记忆大全共（298页）<br>地址：<a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/735d55ba2dc58bd63186bceb19e8b8f67c1cefe5.html?rec_flag=default&sxts=1582900018571">https://wenku.baidu.com/view/735d55ba2dc58bd63186bceb19e8b8f67c1cefe5.html?rec_flag=default&amp;sxts=1582900018571</a></p>
+<p>英语常见词根词缀大全（157页）<br>地址：<a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/20c9d7eedcccda38376baf1ffc4ffe473268fd28.html?sxts=1582900091865">https://wenku.baidu.com/view/20c9d7eedcccda38376baf1ffc4ffe473268fd28.html?sxts=1582900091865</a></p>
+<p>英语词根词缀全表解析（136页）<br>地址：<a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/083a81522bf90242a8956bec0975f46527d3a7e5.html?rec_flag=default&sxts=1582899963896">https://wenku.baidu.com/view/083a81522bf90242a8956bec0975f46527d3a7e5.html?rec_flag=default&amp;sxts=1582899963896</a></p>
+<p>252个英语重要词根(有例词并整理)（53页）<br>地址：<a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/0394caed5901020206409c22.html">https://wenku.baidu.com/view/0394caed5901020206409c22.html</a></p>
+<p>英语词根词缀表(最全)（15页）<br>地址：<a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/2fd2b1887fd5360cbb1adb69.html?sxts=1582900194812">https://wenku.baidu.com/view/2fd2b1887fd5360cbb1adb69.html?sxts=1582900194812</a></p>
+<p>高中英语词根词缀表（18页）<br>地址：<a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/daa3844aa517866fb84ae45c3b3567ec102ddc9f.html?rec_flag=default&sxts=1582900117461">https://wenku.baidu.com/view/daa3844aa517866fb84ae45c3b3567ec102ddc9f.html?rec_flag=default&amp;sxts=1582900117461</a></p>
+<p>常用英语词根词缀分类表（6页）<br>地址：<a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/e404c8f558fb770bf68a551e.html">https://wenku.baidu.com/view/e404c8f558fb770bf68a551e.html</a></p>
+<p>背下这100个英语词根词缀，让你多记2万个单词<br>地址：<a target="_blank" rel="noopener" href="https://www.douban.com/group/topic/130755762/?type=like">https://www.douban.com/group/topic/130755762/?type=like</a></p>
+<p>俞敏洪“力荐”<br>地址：<a target="_blank" rel="noopener" href="https://baijiahao.baidu.com/s?id=1653767690381244469&wfr=spider&for=pc">https://baijiahao.baidu.com/s?id=1653767690381244469&amp;wfr=spider&amp;for=pc</a></p>
+<p>英语词根词缀总结整合版<br>地址：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq877507054/article/details/82909070">https://blog.csdn.net/qq877507054/article/details/82909070</a></p>
+<p>252个常用英语词根记忆法背单词（高三网）<br>地址：<a target="_blank" rel="noopener" href="http://www.gaosan.com/gaokao/230321.html">http://www.gaosan.com/gaokao/230321.html</a></p>
+<p>英语单词前缀后缀总结（高三网）<br>地址：<a target="_blank" rel="noopener" href="http://www.gaosan.com/gaokao/252912.html">http://www.gaosan.com/gaokao/252912.html</a></p>
+<p>9个口诀8个小故事搞定3千英语单词(精品资料)<br>地址：<a target="_blank" rel="noopener" href="http://fanwen.jianlimoban.net/971582/">http://fanwen.jianlimoban.net/971582/</a></p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/liu17234050/article/details/104566377">https://blog.csdn.net/liu17234050/article/details/104566377</a></p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">loyeh</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://iloyeh.github.io/posts/aef1/">https://iloyeh.github.io/posts/aef1/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">loyeh</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E8%AF%8D%E7%BC%80/">
+                                    <span class="chip bg-color">词缀</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">您的肯定是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .v[data-class=v] .emoji,
+    .v[data-class=v] .vemoji {
+        max-height: 30px;
+        overflow: hidden;
+        max-width: 30px !important;
+        transition: all .6s;
+    }
+
+    .v[data-class=v] .vwrap .vemojis {
+        text-align: center;
+        padding-top: 12px;
+        display: block;
+    }
+
+    #vcomments .vemoji:hover {
+        transform: scale(1.3);
+    }
+
+    .v[data-class=v] .vwrap .vemojis i {
+        margin: 4px 8px;
+        background: #f7f7f7;
+        padding-top: 0 !important;
+        padding-bottom: 1px;
+        border-radius: 2px;
+    }
+
+    .roboterbb {
+        position: absolute;
+        right: 87px;
+        padding-top: 3px;
+    }
+
+    .robot-check-text:hover {
+        color: #26a69a;
+    }
+
+    .roboter:hover .robot-check-text::before {
+        border: 2px solid #5a5a5a;
+    }
+
+    .robotxian {
+        background: #5a5a5a;
+        top: 21px;
+        left: 11px;
+        transform-origin: 50% -17px;
+        animation: swing 3.5s infinite ease-in-out;
+        -webkit-transform-origin: 50% -17px;
+        -webkit-animation: swing 2.85s infinite ease-in-out;
+    }
+
+    .v[data-class=v] .vwrap {
+        padding-bottom: 23px;
+    }
+
+    .robotimg {
+        width: 28px !important;
+        height: 28px !important;
+        top: 14px !important;
+        left: -13px !important;
+        max-width: none !important;
+        z-index: 99;
+        cursor: none !important;
+    }
+
+    .v[data-class=v] .vbtn:disabled {
+        color: #b2b2b5;
+        border-color: #b2b2b5;
+    }
+
+    .v[data-class=v] .vbtn:disabled {
+        background-color: transparent;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    .v[data-class=v] .vwrap {
+        border-radius: 8px;
+    }
+
+    #vcomments textarea {
+        background: url(/medias/comment_bg1.webp) no-repeat;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: rgba(255, 255, 255, 0);
+        resize: vertical;
+    }
+    /* seaYJ的动态过渡效果 */
+    /* #vcomments textarea {
+        box-sizing: border-box;
+        background: url(/medias/comment_bg.gif) calc(100% - 10px) 0 no-repeat;
+        background-size: 100px;
+        transition: all .45s ease-in-out
+    }
+    #vcomments textarea:focus {
+        background-position-x: calc(100% + 100px);
+        background-position-y: calc(0% - 50px);
+        transition: all .45s ease-in-out
+    } */
+
+    #vcomments p {
+        /* text-align: left; seaYJ*/
+        margin: 2px 2px 10px;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table,
+    th,
+    td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table,
+    th,
+    td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n),
+    thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked),
+    [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table,
+    th,
+    td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n),
+    thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked),
+    [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    /* 添加评论框样式seaYJ */
+    input[type=email]:not(.browser-default):focus:not([readonly]),
+    input[type=text]:not(.browser-default):focus:not([readonly]) {
+        border-bottom: none !important
+    }
+
+    @media only screen and (max-width: 601px) {
+        .v[data-class='v'] .vcards .vcard .vcontent {
+            width: 90%
+        }
+    }
+
+    @media only screen and (min-width: 600px) and (max-width:992px) {
+        .v[data-class='v'] .vcards .vcard .vcontent {
+            width: 92%
+        }
+    }
+
+    @media only screen and (min-width: 993px) {
+        .v[data-class='v'] .vcards .vcard .vcontent {
+            width: 95%
+        }
+    }
+
+    .v[data-class=v] .vcards .vcard {
+        padding-right: .5em
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling"
+        style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid"></div>
+</div>
+
+
+<!-- <script src="/libs/valine/av-min.js"></script> -->
+<script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+<script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+    new Valine({
+        el: '#vcomments',
+        enableQQ: true,
+        boolean: true,
+        appId: '8vJn0QBplqLADcXEGwf82jV4-MdYXbMMI',
+        appKey: 'PO85hRys16bV881Pq4fjnmbK',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        // avatar: 'monsterid',
+        avatar: '/medias/robot.png',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: '留下你的足迹o(*￣▽￣*)ブ Just go go ^_^',
+        adminEmailMd5: '',
+        requiredFields: ['nick', 'mail'], //设置必填项
+        serverURLs: 'https://8vjn0qbp.api.lncldglobal.com',
+
+        // (neko给出的模版有误)通译千问修改了这里，使用模板字符串的正确方式
+        master: [''],
+        friends: [''],
+        tagMeta: ['博主", "小伙伴", "访客'],
+
+        // 注意：如果emoticonUrl也需要动态设置，请使用类似上面的方式修正
+        // emoticonUrl: ['https://cdn.jsdelivr.net/npm/alus@latest", "https://cdn.jsdelivr.net/gh/MiniValine/qq@latest", "https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest", "https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest", "https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest", "https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest']
+        emojiCDN: "//i0.hdslb.com/bfs/emote/",
+        emojiMaps: {
+            "二〇二二": "a783df2ce72952c44004007462324bde4b092a0c.png",
+            "一四周年": "53148f85bb7e2d8bada8cea57ee4b1f36f48237d.png",
+            "二〇二三": "fa6dda8b876ed38609de38aa604be5ad109b8591.png",
+            "兔年": "9cb6ee2c42986c56ec361d21d5ccbd096aefab0a.png",
+            "脱单doge": "bf7e00ecab02171f8461ee8cf439c73db9797748.png",
+            "微笑": "685612eadc33f6bc233776c6241813385844f182.png",
+            "口罩": "3ad2f66b151496d2a5fb0a8ea75f32265d778dd3.png",
+            doge: "3087d273a78ccaff4bb1e9972e2ba2a7583c9f11.png",
+            "妙啊": "b4cb77159d58614a9b787b91b1cd22a81f383535.png",
+            OK: "4683fd9ffc925fa6423110979d7dcac5eda297f4.png",
+            "星星眼": "63c9d1a31c0da745b61cdb35e0ecb28635675db2.png",
+            "辣眼睛": "35d62c496d1e4ea9e091243fa812866f5fecc101.png",
+            "吃瓜": "4191ce3c44c2b3df8fd97c33f85d3ab15f4f3c84.png",
+            "滑稽": "d15121545a99ac46774f1f4465b895fe2d1411c3.png",
+            "呲牙": "b5a5898491944a4268360f2e7a84623149672eb6.png",
+            "打call": "431432c43da3ee5aab5b0e4f8931953e649e9975.png",
+            "歪嘴": "4384050fbab0586259acdd170b510fe262f08a17.png",
+            "调皮": "8290b7308325e3179d2154327c85640af1528617.png",
+            "豹富": "3d1dbe52ea16e12ff7b1c371196f728a4097fb33.png",
+            "嗑瓜子": "28a91da1685d90124cfeead74622e1ebb417c0eb.png",
+            "笑哭": "c3043ba94babf824dea03ce500d0e73763bf4f40.png",
+            "藏狐": "ba0937ef6f3ccca85e2e0047e6263f3b4da37201.png",
+            "脸红": "0922c375da40e6b69002bd89b858572f424dcfca.png",
+            "给心心": "1597302b98827463f5b75c7cac1f29ea6ce572c4.png",
+            "嘟嘟": "abd7404537d8162720ccbba9e0a8cdf75547e07a.png",
+            "哦呼": "362bded07ea5434886271d23fa25f5d85d8af06c.png",
+            "喜欢": "8a10a4d73a89f665feff3d46ca56e83dc68f9eb8.png",
+            "酸了": "92b1c8cbceea3ae0e8e32253ea414783e8ba7806.png",
+            "嫌弃": "de4c0783aaa60ec03de0a2b90858927bfad7154b.png",
+            "害羞": "9d2ec4e1fbd6cb1b4d12d2bbbdd124ccb83ddfda.png",
+            "大哭": "2caafee2e5db4db72104650d87810cc2c123fc86.png",
+            "疑惑": "b7840db4b1f9f4726b7cb23c0972720c1698d661.png",
+            "喜极而泣": "485a7e0c01c2d70707daae53bee4a9e2e31ef1ed.png",
+            "笑": "81edf17314cea3b48674312b4364df44d5c01f17.png",
+            "偷笑": "6c49d226e76c42cd8002abc47b3112bc5a92f66a.png",
+            "惊讶": "f8e9a59cad52ae1a19622805696a35f0a0d853f3.png",
+            "捂脸": "6921bb43f0c634870b92f4a8ad41dada94a5296d.png",
+            "阴险": "ba8d5f8e7d136d59aab52c40fd3b8a43419eb03c.png",
+            "呆": "33ad6000d9f9f168a0976bc60937786f239e5d8c.png",
+            "抠鼻": "cb89184c97e3f6d50acfd7961c313ce50360d70f.png",
+            "大笑": "ca94ad1c7e6dac895eb5b33b7836b634c614d1c0.png",
+            "惊喜": "0afecaf3a3499479af946f29749e1a6c285b6f65.png",
+            "无语": "44667b7d9349957e903b1b62cb91fb9b13720f04.png",
+            "点赞": "1a67265993913f4c35d15a6028a30724e83e7d35.png",
+            "鼓掌": "895d1fc616b4b6c830cf96012880818c0e1de00d.png",
+            "尴尬": "cb321684ed5ce6eacdc2699092ab8fe7679e4fda.png",
+            "灵魂出窍": "43d3db7d97343c01b47e22cfabeca84b4251f35a.png",
+            "委屈": "d2f26cbdd6c96960320af03f5514c5b524990840.png",
+            "傲娇": "010540d0f61220a0db4922e4a679a1d8eca94f4e.png",
+            "疼": "905fd9a99ec316e353b9bd4ecd49a5f0a301eabf.png",
+            "冷": "cb0ebbd0668640f07ebfc0e03f7a18a8cd00b4ed.png",
+            "热": "4e58a2a6f5f1580ac33df2d2cf7ecad7d9ab3635.png",
+            "生病": "0f25ce04ae1d7baf98650986454c634f6612cb76.png",
+            "捂眼": "c5c6d6982e1e53e478daae554b239f2b227b172b.png",
+            "嘘声": "e64af664d20716e090f10411496998095f62f844.png",
+            "思考": "cfa9b7e89e4bfe04bbcd34ccb1b0df37f4fa905c.png",
+            "再见": "fc510306bae26c9aec7e287cdf201ded27b065b9.png",
+            "翻白眼": "eba54707c7168925b18f6f8b1f48d532fe08c2b1.png",
+            "哈欠": "888d877729cbec444ddbd1cf4c9af155a7a06086.png",
+            "奋斗": "bb2060c15dba7d3fd731c35079d1617f1afe3376.png",
+            "墨镜": "3a03aebfc06339d86a68c2d893303b46f4b85771.png",
+            "难过": "a651db36701610aa70a781fa98c07c9789b11543.png",
+            "撇嘴": "531863568e5668c5ac181d395508a0eeb1f0cda4.png",
+            "抓狂": "4c87afff88c22439c45b79e9d2035d21d5622eba.png",
+            "生气": "3195714219c4b582a4fb02033dd1519913d0246d.png",
+            "水稻": "d530fcaa5100ba12a17a79b55bad342d530c54e3.png",
+            "奶茶干杯": "d5a491990be551ce69f9660da948050df4eab331.png",
+            "汤圆": "93609633a9d194cf336687eb19c01dca95bde719.png",
+            "锦鲤": "643d6c19c8164ffd89e3e9cdf093cf5d773d979c.png",
+            "福到了": "5de5373d354c373cf1617b6b836f3a8d53c5a655.png",
+            "鸡腿": "c7860392815d345fa69c4f00ef18d67dccfbd574.png",
+            "雪花": "a41813c4edf8782047e172c884ebd4507ce5e449.png",
+            "视频卫星": "dce6fc7d6dfeafff01241924db60f8251cca5307.png",
+            "干杯": "8da12d5f55a2c7e9778dcc05b40571979fe208e6.png",
+            "黑洞": "c4e9f0e3f35961d5037cb071b16ddba2170b262c.png",
+            "爱心": "ed04066ea7124106d17ffcaf75600700e5442f5c.png",
+            "胜利": "b49fa9f4b1e7c3477918153b82c60b114d87347c.png",
+            "加油": "c7aaeacb21e107292d3bb053e5abde4a4459ed30.png",
+            "抱拳": "89516218158dbea18ab78e8873060bf95d33bbbe.png",
+            "响指": "1b5c53cf14336903e1d2ae3527ca380a1256a077.png",
+            "保佑": "fafe8d3de0dc139ebe995491d2dac458a865fb30.png",
+            "福": "802429a301ac5b35a0480d9526a070ce67cd8097.png",
+            "支持": "3c210366a5585706c09d4c686a9d942b39feeb50.png",
+            "拥抱": "41780a4254750cdaaccb20735730a36044e98ef3.png",
+            "跪了": "f2b3aee7e521de7799d4e3aa379b01be032698ac.png",
+            "怪我咯": "07cc6077f7f7d75b8d2c722dd9d9828a9fb9e46d.png",
+            "老鼠": "8e6fb491eb1bb0d5862e7ec8ccf9a3da12b6c155.png",
+            "牛年": "9275275ff1f2659310648221107d20bc4970f106.png",
+            "三星堆": "fc7dadaa6986e75b813aa26f3eff3281d5f1a6d1.png",
+            "桃源_给花花": "085d41d0fa25453b58fdc87dc2df538183fea11e.png",
+            "桃源_缘分": "cf1c441507689342713623965035f9bed72b1b17.png",
+            "桃源_傲娇": "ce8314c9c2cfdbe235c239c28b819698e29a02d3.png",
+            "桃源_欢呼": "1f439878d8160bd64a4464904064a10df880c921.png",
+            "桃源_乖巧": "57d087b6437002c2ca9e225dcac0ef226d1f2654.png",
+            "洛天依": "9fe06f3594d9afaf4ee2b74770f1c3086ae0ba11.png",
+            "坎公骑冠剑_吃鸡": "c4248a7b6ab326d66c83fd1fb58f1a50f99df332.png",
+            "坎公骑冠剑_钻石": "0b97c7e50e0cc963370e62fbb9b55f51bbe7f8ab.png",
+            "坎公骑冠剑_无语": "80eba0ce64c3fc1279b4daede2f1979cb2380e78.png",
+            "来古_沉思": "4ee07ff03266d62b246be0b950bebb2abf3d997c.png",
+            "来古_呆滞": "9a70b365e523f2379f395031ceefcebb75a45903.png",
+            "来古_疑问": "032fdc0d9d9fe6334776f6c39518a959b73b98f4.png",
+            "来古_震撼": "8b40f228675602a317d32007de6b795c101135ec.png",
+            "来古_注意": "4b671ba32a2581cf40e5cd41c67b111eb8010de0.png",
+            "FGO_耶": "cb57c18365601d277e5a5d52b0957616d034f04c.png",
+            "FGO_开心": "300dadb9ec3cf14cf5ed55e2542947fe6e4f0295.png",
+            "FGO_汗": "93d8a770a22914ade2354ca928bb1799b2260d00.png",
+            "FGO_怒": "75ee235f331b3c714e1cfb264fff9e562b20944b.png",
+            "FGO_偷看": "b2d752b135b72a93c13b26bb0e272070a906257b.png",
+            "初音未来_大笑": "8e7f71cda83ce407b0684702983399f8ed982f17.png",
+            "原神_哇": "8188ddf95bace929d382c7a83214afde79d83bfc.png",
+            "原神_哼": "91ed33b74bc36873c3ac8b2648f70d7ab6d8ab78.png",
+            "原神_嗯": "8b0a87e414f453a29730b6e0f45ca61f2f898688.png",
+            "原神_欸嘿": "8fba438fcbe0550877b04efd768d857082307c5e.png",
+            "原神_喝茶": "1de5789fbb3526ef7823c54db7081790a38e7044.png",
+            "原神_生气": "90a38c34742899f8e84138ed55f56cad3ba611fb.png",
+            "保卫萝卜_白眼": "9fce63f38288700bf7be84f3be336cf895ba0902.png",
+            "保卫萝卜_笔芯": "5ff2ed5cb71b02010018cc5910ac7052a03769af.png",
+            "保卫萝卜_哭哭": "7d249f7c990111d3e2982f7477af15b7eb29cbd9.png",
+            "保卫萝卜_哇": "5f2370e561c32d841245f7b1aab2eef43aeb9544.png",
+            "保卫萝卜_问号": "41eb93f09fc4a4d0692a310e8a1f85ba60e96060.png",
+            "无悔华夏_不愧是你": "c58002c32ee78d45366e126f294cb3149dd64ac2.png",
+            "无悔华夏_吃瓜": "273dcff577551bafff4f1eae18561f871e73a6ba.png",
+            "无悔华夏_达咩": "cffab383f47bab7f6736ba9c8d6ac098113410d9.png",
+            "无悔华夏_点赞": "b0f2e8db405ec667c3e6aaabd7c15155b6ea8710.png",
+            "无悔华夏_好耶": "324cd79784aeb37dbf2f47f68bbe8ed5d01f975e.png",
+            "奥比岛_搬砖": "1fab697214918d91087373a999cc7ef8040ddf85.png",
+            "奥比岛_点赞": "fb0b476fe2ff30cd59385ea7d616627ac114161f.png",
+            "奥比岛_击爪": "35bba1bb8f164c5e844155548438248e6eaa8382.png",
+            "奥比岛_委屈": "fda155e7c33b40dbb94c24644e0635d47b6ef3cc.png",
+            "奥比岛_喜欢": "ed64e0c81ee194138bd9df30c65077ed978fb88c.png",
+            "黎明觉醒_怒了鸦": "078991ad7546f2fefb79c05894d5f0431736d1e7.png",
+            "黎明觉醒_石化鸦": "40bc09683e3b93390995b9ea5dc64f982b34e347.png",
+            "黎明觉醒_摊手鸦": "883e4caa8e1745f48de0671c6441810faa4a56ed.png",
+            "黎明觉醒_比心鸦": "e25f5442c5bce2a54b9c757e3032f44398f1a7df.png",
+            "黎明觉醒_哼白眼鸦": "36de90dbaffeb32477dffdac612ad69da4e19b76.png",
+            "以闪亮之名_哎": "5fafe7d9992e12c756da909a545ddb27486987af.png",
+            "以闪亮之名_爱你哦": "835c3bff4fc686a78f49db1eb68e4d04c0963195.png",
+            "以闪亮之名_吃瓜": "ebfdda8501e48c2434297e4a9f15218aadf07747.png",
+            "以闪亮之名_好耶": "fd0c2bbb806265c468eca83b7a90b0d5fcaa4cec.png",
+            "以闪亮之名_星星眼": "a44a291ffe9334712ba130aa3fca0b940f32908d.png",
+            "以闪亮之名_针不戳": "cad39e954972bbd93f0a777978b2f77078b8cf4a.png",
+            "热词系列_六到无语": "3cae536616fdd1a3c1399312381b563e54ac3271.png",
+            "热词系列_干杯": "5ce649d5f716566db41dbf68c2e319517516d321.png",
+            "热词表情_世萌双冠": "8d962fcf0b18761d5f4315a49b7ae428da08cf4a.png",
+            "热词系列_肥肠自信": "0872ca59db047b916f58926d83ca4f35e49b87d6.png",
+            "热词系列_我故意的": "cc7eba19b5f468523c5a2867c4561fd33b541029.png",
+            "热词系列_知识增加": "7145cbd5464b14a3f5cf544125a9976e44a13517.png",
+            "热词系列_三连": "21f15fe11b7a84d2f2121c16dec50a4e4556f865.png",
+            "热词系列_妙啊": "3ed5b0b2e1f632884d93abe6ae2a387e6f4395fd.png",
+            "热词系列_优雅": "d41bc3db2a0d5ac32eee0b454062c057e6198a21.png",
+            "热词表情_哎呦不错哦": "6209c2cdcdeb014efd9eae4e9d55b9efb9c18263.png",
+            "热词系列_好耶": "ee2d354d3e67e5d77bab31ad8af99cd5ac89c009.png",
+            "热词系列_你币有了": "84820c2b147a8ca02f3c4006b63f76c6313cbfa0.png",
+            "热词系列_吹爆": "9c78c14bd395d75afeecd20276ec71324e9b97df.png",
+            "念诗之王": "8de880a58fada7e0e668f2f47dabf0c223de4e58.png",
+            "热词系列_对象": "a41763740a90c2b11bf282bf44ccee78066c98ff.png",
+            "热词系列_不孤鸟": "7b94a0c3fe95c603a85a13bacbaf726b8e5882dc.png",
+            "热词系列_洛水天依": "ab3845edcdc3bb8852c502f472a8caa9e921ae3a.png",
+            "热词系列_秀": "1f8ab5644a10c3a01cc32cfe8f4d000296b06fb4.png",
+            "热词系列_标准结局": "6b812dc41844ae4bdb3d6b7dd66067db6b922a5d.png",
+            "热词系列_B站有房": "e2aeda75690b72b49ebc82f12e340678f5fc47c0.png",
+            "热词系列_破防了": "d2c5d5a131f9d247e4ab4eed875c752d6e89d69e.png",
+            "热词系列_多谢款待": "a4789b0eceb8fb9719c3a214aa89180528369091.png",
+            "热词系列_燃起来了": "5a6199d39ee57e6e00ee1db33a7d430f5a9ff045.png",
+            "热词系列_饮茶先啦": "f4782fa5a072c766fc2b289b067ea3f19086bdf4.png",
+            "热词系列_再来亿遍": "011c8e452941c701c3f69810eaeaaed99d96b9ee.png",
+            "热词系列_热乎": "79ba29bf44db3f05acbf0179f5969cc21cb1b0e6.png",
+            "热词系列_好活": "7ec857e53ebaf37c59e96b5e56bcb0f05cd0b2d7.png",
+            "热词系列_好家伙": "63ec80dea3066bd9f449ba999ba531fa61f7b4eb.png",
+            "热词系列_排面": "a544563e68dec3f6fcb3200cb7ea71193a0afe61.png",
+            "热词系列_爷青回": "a26189ff1e681bddef7f6533f9aabe7604731a3e.png",
+            "热词系列_芜湖起飞": "78d04c6ce78a613c90d510cd45fe7e25c57ba00b.png",
+            "热词系列_夺笋呐": "e763846a534e790d402ee4ef1640c9bc02aaab37.png",
+            "热词系列_两面包夹芝士": "9903fefe88018d62fecad299f6af4eb2d588bbdc.png",
+            "热词系列_梦幻联动": "4809416be5ca787c2ec3e897e4fd022a58da6e0e.png",
+            "热词系列_泪目": "bba3703ab90b7d16fe9dbcb85ed949db687f8331.png",
+            "热词系列_保护": "55f8f6445ca7c3170cdfc5b16036abf639ce9b57.png",
+            "热词系列_爱了爱了": "2a165b555ba20391316366c664ed7891883dc5aa.png",
+            "热词系列_可以": "e08543c71202b36c590094417fcfbb80c3506cd8.png",
+            "热词系列_希望没事": "6c0d2e6c486d1ba5afd6204a96e102652464a01d.png",
+            "热词系列_打卡": "a9cf77c78e1b9b40aa3ed4862402fba008ee2f51.png",
+            "热词系列_DNA": "f6eb74f8230588f61a298af89061a7d75c5762e5.png",
+            "热词系列_这次一定": "a01ca28923daa7cc896c42f27deb4914e20dd572.png",
+            "热词系列_AWSL": "c37f88cf799f9badf9d84b7671dc3dd98c0fc0c2.png",
+            "热词系列_递话筒": "98e6950e39fbb4dd1c576042063ca632074070ba.png",
+            "热词系列_你细品": "535e00658e7e47966f154d3a167fa2365ebc4321.png",
+            "热词系列_咕咕": "d8065c2e7ce48c929317a94553499a46fecc262a.png",
+            "热词系列_张三": "255a938f39cea625032b6650036b31aa26c50a3c.png",
+            "热词系列_害": "cbe798a194612958537c5282fcca7c3bcd2aa15c.png",
+            "热词系列_我裂开了": "29bd57ec4e8952880fea6c9e47aee924e91f10c4.png",
+            "热词系列_有内味了": "7ca61680a905b5b6e2e335c630e725b648b03b4d.png",
+            "热词系列_猛男必看": "9ca4f723194ff9f6f5745591132c1d70fae5a4a8.png",
+            "热词系列_奥力给": "c9b8683827ec6c00fea5327c9bec14f581cef2aa.png",
+            "热词系列_神仙UP": "a49e0d0db1e7d35a0f7411be13208951ab448f03.png",
+            "热词系列_问号": "c1d1e76c12180adc8558f47006fe0e7ded4154bb.png",
+            "热词系列_我哭了": "9e0b3877d649aaf6538fbdd3f937e240a9d808e4.png",
+            "热词系列_高产": "9db817cba4a7f4a42398f3b2ec7c0a8e0c247c42.png",
+            "热词系列_不愧是你": "9ff2e356797c57ee3b1675ade0883d2d2247be9b.png",
+            "热词系列_真香": "e68497c775feaac1c3b1a6cd63a50cfb11b767c4.png",
+            "热词系列_我全都要": "d424d1ad8d14c1c9b8367842bc68c658b9229bc1.png",
+            "热词系列_爷关更": "faad40c56447f1f8abcb4045c17ce159d113d1fd.png",
+            "热词系列_锤": "35668cc12ae25b9545420e4a85bf21a0bfc03e5d.png",
+            "热词系列_我酸了": "a8cbf3f6b8cd9377eeb15b9172f3cd683b2e4650.png",
+            "热词系列_有生之年": "f41fdafe2d0fbb8e8bc1598d2cf37e355560103a.png",
+            "热词系列_镇站之宝": "24e7a6a6e6383c987215fb905e3ee070aca259b5.png",
+            "热词系列_我太南了": "a523f3e4c63e4db1232365765d0ec452f83be97e.png",
+            "热词系列_完结撒花": "ea9db62ff5bca8e069cd70c4233353a802835422.png",
+            "热词系列_大师球": "f30089248dd137c568edabcb07cf67e0f6e98cf3.png",
+            "热词系列_知识盲区": "ccc94600b321a28116081e49ecedaa4ee8728312.png",
+            "热词系列_狼火": "33ccd3617bfa89e9d1498b13b7542b63f163e5de.png",
+            "热词系列_你可真星": "54c8ddff400abfe388060cabfbb579280fdea1be.png",
+            "tv_白眼": "c1d59f439e379ee50eef488bcb5e5378e5044ea4.png",
+            tv_doge: "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
+            "tv_坏笑": "1f0b87f731a671079842116e0991c91c2c88645a.png",
+            "tv_难过": "87f46748d3f142ebc6586ff58860d0e2fc8263ba.png",
+            "tv_生气": "26702dcafdab5e8225b43ffd23c94ac1ff932654.png",
+            "tv_委屈": "d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png",
+            "tv_斜眼笑": "911f987aa8bc1bee12d52aafe62bc41ef4474e6c.png",
+            "tv_呆": "fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png",
+            "tv_发怒": "34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png",
+            "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png",
+            "tv_呕吐": "9f996894a39e282ccf5e66856af49483f81870f3.png",
+            "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
+            "tv_微笑": "70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png",
+            "tv_疑问": "0793d949b18d7be716078349c202c15ff166f314.png",
+            "tv_大哭": "23269aeb35f99daee28dda129676f6e9ea87934f.png",
+            "tv_鼓掌": "1d21793f96ef4e6f48b23e53e3b9e42da833a0f6.png",
+            "tv_抠鼻": "c666f55e88d471e51bbd9fab9bb308110824a6eb.png",
+            "tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
+            "tv_调皮": "b9c41de8e82dd7a8515ae5e3cb63e898bf245186.png",
+            "tv_笑哭": "1abc628f6d4f4caf9d0e7800878f4697abbc8273.png",
+            "tv_晕": "5443c22b4d07fb1907ccc610c8e6db254f2461b7.png",
+            "tv_点赞": "f85c354995bd99e28fc76c869bfe42ba6438eff4.png",
+            "tv_害羞": "a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png",
+            "tv_睡着": "8b196675b53af58264f383c50ad0945048290b33.png",
+            "tv_色": "61822c7e9aae5da76475e7892534545336b23a6f.png",
+            "tv_吐血": "09dd16a7aa59b77baa1155d47484409624470c77.png",
+            "tv_无奈": "ea8ed89ee9878f2fece2dda0ea8a5dbfe21b5751.png",
+            "tv_再见": "180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png",
+            "tv_流汗": "cead1c351ab8d79e9f369605beb90148db0fbed3.png",
+            "tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",
+            "tv_抓狂": "fe31c08edad661d63762b04e17b8d5ae3c71a757.png",
+            "tv_黑人问号": "45821a01f51bc867da9edbaa2e070410819a95b2.png",
+            "tv_困": "241ee304e44c0af029adceb294399391e4737ef2.png",
+            "tv_打脸": "56ab10b624063e966bfcb76ea5dc4794d87dfd47.png",
+            "tv_闭嘴": "c9e990da7f6e93975e25fd8b70e2e290aa4086ef.png",
+            "tv_鄙视": "6e72339f346a692a495b123174b49e4e8e781303.png",
+            "tv_腼腆": "89712c0d4af73e67f89e35cbc518420380a7f6f4.png",
+            "tv_馋": "fc7e829b845c43c623c8b490ee3602b7f0e76a31.png",
+            "tv_可爱": "9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png",
+            "tv_发财": "34db290afd2963723c6eb3c4560667db7253a21a.png",
+            "tv_生病": "8b0ec90e6b86771092a498c54f09fc94621c1900.png",
+            "tv_流鼻血": "c32d39db2737f89b904ca32700d140a9241b0767.png",
+            "tv_尴尬": "7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png",
+            "tv_大佬": "093c1e2c490161aca397afc45573c877cdead616.png",
+            "tv_流泪": "7e71cde7858f0cd50d74b0264aa26db612a8a167.png",
+            "tv_冷漠": "b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png",
+            "tv_皱眉": "72ccad6679fea0d14cce648b4d818e09b8ffea2d.png",
+            "tv_鬼脸": "0ffbbddf8a94d124ca2f54b360bbc04feb6bbfea.png",
+            "tv_调侃": "4bc022533ef31544ca0d72c12c808cf4a1cce3e3.png",
+            "tv_目瞪口呆": "0b8cb81a68de5d5365212c99375e7ace3e7891b7.png",
+            "雪未来_针不戳": "d03c1d062bb4f346c1041ca60bc763d404ddbd56.png",
+            "雪未来_摸摸头": "c7389d48b89699ecfeec373f90c8c26ea6d3496b.png",
+            "雪未来_HighFive": "bd257c4ce22fca6a810c74873e90b343ddcead68.png",
+            "雪未来_震惊": "16e50092a82375171513018f372ed72377fcd979.png",
+            "雪未来_突然出现": "02ba37478cdb287f40b2a328c5755873937cc417.png",
+            "雪未来_喝奶茶": "7847100be4de8cb3bf25825af165bed4f0668084.png",
+            "雪未来_滑雪": "d5a14055c8b4b457d7d815c79e7e4180299b375d.png",
+            "雪未来_期待": "12d2ef42e75d2806bb8a071476e825c58e797f1a.png",
+            "雪未来_惊讶": "b2ee932586ee69f1a5ba69676f5fd345b4cd069a.png",
+            "雪未来_冷": "239d2acb5dc2b96ec98af1ba1a81f49c8b211cd4.png",
+            "雪未来_噗": "852cc4cc73caa982b07bcbe48683d20be6c8df61.png",
+            "雪未来_开心": "1eafe084dccb3c8afff05b21d302e40e06dd07dd.png",
+            "雪未来_郁闷": "a515cd6aa54093c1ccb364f22360620e2d5d76cb.png",
+            "雪未来_快乐": "0b552c42157aef2002f8e9c05b06939ac3226127.png",
+            "雪未来_生气": "27e30065621ff3c981102b60865872d1be40fcd7.png",
+            "雪未来_早": "7d941da6f69bf256b71b2f4c813c9e15bc6f89fa.png",
+            "雪未来_疑惑": "6c5f3b58a568185b9844e902c632ee5cf362170d.png",
+            "雪未来_嘿嘿": "7bee0f7af3eef454f9107e883b1c5988fada42a5.png",
+            "雪未来_唱歌": "1ac8692986fc4e3d271fa14289f99d5d11dee54d.png",
+            "雪未来_大哭": "7d721758533a060933d6cef176012bf15f0fba81.png"
+        }
+    });
+</script>
+
+
+<!-- 评论机器人验证 -->
+<!-- <script>
+    $('.roboter').on('click', function () {
+        $('.robot-check-text').html('·&nbsp;&nbsp;&nbsp;验证成功！');
+        $('.roboter:hover .robot-check-text::before').css('border', '2px solid #26a69a');
+        $('.robotxian').css('background', '#26a69a');
+        $('.robotimg').attr('src', '/medias/robot1.png');
+        $('.robot-check-text').css('color', '#26a69a');
+    });
+
+    if (!$('.robot-check').checked) {
+        $('.vsubmit').attr('disabled', true).attr('title', '评论前勾选机器人验证按钮');
+    }
+    $('.robot-check').on('click', function () {
+        $('.vsubmit').attr('disabled', false).attr('title', '欢迎畅所欲言');
+    });
+</script> -->
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/posts/b7fa/">
+                    <div class="card-image">
+                        <div class="box-content">
+                            <p class="title">阅读全文</p>
+                            <span class="post" style="width:180px; color: rgb(98, 169, 232); font-size: 22px; margin-top: 10px">
+                                图
+                            </span>
+                        </div>
+                        
+                        
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="图">
+                        
+                        <span class="card-title">图</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-07-30
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E8%BD%AF%E4%BB%B6/">
+                        <span class="chip bg-color">软件</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/posts/c1a6/">
+                    <div class="card-image">
+                        <div class="box-content">
+                            <p class="title">阅读全文</p>
+                            <span class="post" style="width:180px; color: rgb(98, 169, 232); font-size: 22px; margin-top: 10px">
+                                查找
+                            </span>
+                        </div>
+                        
+                        
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="查找">
+                        
+                        <span class="card-title">查找</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-07-13
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%9F%A5%E6%89%BE/">
+                        <span class="chip bg-color">查找</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: loyeh の Oasis<br />'
+            + '文章作者: loyeh<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 统一代码块功能：语言、复制、超过 10 行自动折叠。 -->
+<script>
+    window.MateryCodeBlockConfig = {
+        language: true,
+        copy: true,
+        collapse: true,
+        collapseLines: 10
+    };
+</script>
+<script type="text/javascript" src="/libs/codeBlock/codeBlock.js"></script>
+
+<!-- 对页面进行仿信纸样式修饰 -->
+<style>
+    .ititle {
+        margin: 15px 0;
+        text-align: center;
+        font-family: 'Architects Daughter', cursive;
+    }
+
+    .ipage {
+        line-height: 30px;
+        margin: 0 auto;
+        padding: 15px 32px 29px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+        -moz-border-radius-bottomleft: 20px 500px;
+        -moz-border-radius-bottomright: 500px 30px;
+        -moz-border-radius-topright: 5px 100px;
+        -webkit-border-bottom-left-radius: 20px 500px;
+        -webkit-border-bottom-right-radius: 64px 10px;
+        -webkit-border-top-right-radius: 5px 100px;
+        border-bottom-left-radius: 20px 500px;
+        border-bottom-right-radius: 64px 10px;
+        border-top-right-radius: 5px 100px;
+        -webkit-background-size: 100% 30px;
+        -moz-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.2);
+        text-shadow: 0 1px 0 #F6EF97;
+        position: relative;
+    }
+
+    .izhengwen {
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        height: auto;
+        background: repeating-linear-gradient(to bottom, #f9f9f9, #f9f9f9 31px, #6BA2D8 1px, #f9f9f9);
+        background-size: 100% 32px;
+    }
+
+    #articleContent p {
+        margin: 0
+    }
+
+    .ititle {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 1.45rem !important;
+        padding: 10px auto;
+    }
+
+    .izhengwen p {
+        position: relative;
+        line-height: 2.2rem !important;
+        text-indent: 0em; /*首行缩进，原值为2em*/
+        font-family: 'Architects Daughter', cursive !important;
+        font-size: 1.45rem !important;
+    }
+
+    .ipage::before {
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        right: 52px;
+        z-index: 4;
+        width: 4px;
+        height: 100%;
+        border-left: 1px solid #fca1a1;
+    }
+
+    .izhengwen p:nth-child(odd):before {
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: -16px;
+        z-index: 3;
+        width: 24px;
+        height: 24px;
+        background-color: #fff;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+    }
+
+    .ipage:after {
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 52px;
+        z-index: 3;
+        width: 4px;
+        height: 100%;
+        border-left: 4px double #fca1a1;
+    }
+
+    .ipage p {
+        padding: 0 2em;
+        color: #333 !important;
+    }
+
+    body.dark .ipage {
+        opacity: 0.85;
+    }
+
+    /*小屏幕下(手机类)的样式*/
+    @media only screen and (max-width: 600px) {
+        .ipage {
+            padding: 15px 23px 29px;
+        }
+
+        .ipage:after {
+            left: 36px;
+        }
+
+        .ipage::before {
+            right: 36px;
+        }
+
+        .ipage p {
+            padding: 0 0.9em;
+        }
+    }
+</style>
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h1, h2, h3, h4, h5, h6'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4, h5, h6').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+            left: -66px !important;
+        }
+
+        .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+            left: 0px !important;
+        }
+
+        
+</style>
+<div class="">
+    
+            <div class="row">
+                <meting-js class="hidess col l8 offset-l2 m10 offset-m1 s12" server="netease"
+                    type="playlist" id="503838841" fixed=' true'
+                    autoplay='false'
+                        theme='#42b983'
+                            loop='all'
+                                order='random'
+                                    preload='auto'
+                                        volume='0.7'
+                                            list-folded='true'
+                                                >
+                </meting-js>
+                <style>
+                    .hidess .aplayer-lrc {
+                        display: none !important;
+                    }
+                </style>
+            </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+    
+
+    <!-- 添加页脚波浪代码 -->
+    <link rel="stylesheet" type="text/css" href="/css/footer_wave.css">
+    <style>
+        footer .fot-wave {
+            background: url(/medias/wave.png) repeat-x;
+            background-size: 1000px 100px;
+            /* 添加 */
+            background-repeat: repeat-x; /* 设置波浪在水平方向重复 */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%; /* 波浪宽度 */
+            height: 100px; /* 波浪高度 */
+            z-index: 1; /* 确保波浪在内容上方显示 */
+        }
+    </style>
+    <div class="fot-wave-box">
+        <div class="fot-wave" id="fot-wave_0"></div>
+        <div class="fot-wave" id="fot-wave_1"></div>
+        <div class="fot-wave" id="fot-wave_2"></div>
+        <div class="fot-wave" id="fot-wave_3"></div>
+    </div>
+
+    <!-- 添加标题锚点 -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const articleContent = document.getElementById('articleContent');
+        if (!articleContent) return;
+
+        const headings = articleContent.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+        headings.forEach(function(heading) {
+          if (!heading.id) {
+            heading.id = heading.textContent.trim()
+              .toLowerCase()
+              .replace(/\s+/g, '-')
+              .replace(/[^\w\u4e00-\u9fa5-]/g, '');
+          }
+
+          const anchor = document.createElement('a');
+          anchor.className = 'anchorjs-link';
+          anchor.href = '#' + heading.id;
+          anchor.innerHTML = '<i class="fas fa-link"></i>'; // 使用 Font Awesome 图标
+          anchor.setAttribute('aria-label', '锚点链接');
+          anchor.title = '点击复制链接';
+
+          // 点击复制链接功能
+          anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const url = window.location.origin + window.location.pathname + this.getAttribute('href');
+            navigator.clipboard.writeText(url);
+            window.location.hash = this.getAttribute('href');
+          });
+
+          heading.appendChild(anchor);
+        });
+      });
+    </script>
+
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2023-2026</span>
+            
+            <a href="/about" target="_blank">loyeh</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span class="white-color">203.7k</span>&nbsp;字
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                    |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv" class="white-color"></span>&nbsp;次
+                </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                    |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv" class="white-color"></span>&nbsp;人
+                </span>
+            
+            <br>
+            
+                <span id="sitetime">载入运行时间...</span>
+                <script>
+                    function siteTime() {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = "2023";
+                        var startMonth = "8";
+                        var startDate = "18";
+                        var startHour = "12";
+                        var startMinute = "6";
+                        var startSecond = "16";
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth() + 1;
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+                        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+                        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+                        if (startYear == todayYear) {
+                            document.getElementById("year").innerHTML = todayYear;
+                            document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                        } else {
+                            document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                            document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                        }
+                    }
+                    setInterval(siteTime, 1000);
+                </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/iloyeh" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:cc7kb77j@duck.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1327511822" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1327511822" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+
+</div>
+    </div>
+
+</footer>
+
+<div class="progress-bar"></div>
+
+    <!-- 搜索遮罩框 -->
+<style>
+#searchInput::-webkit-input-placeholder { /* WebKit browsers */ 
+    font-size:16px;
+} 
+#searchInput:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+    font-size:16px;
+} 
+#searchInput::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+    font-size:16px;
+} 
+#searchInput:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+    font-size:16px;
+} 
+#searchInput {
+    margin-top: 6px;
+    margin-bottom: 12px;
+    text-indent: 4px;
+    font-size: 14px;
+}
+</style>
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;站内搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="autofocus" /> <!-- 点击搜索按钮后input框自动获取焦点 -->
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+    <!-- 白天和黑夜主题 -->
+<div class="sum-moon-box">
+    <a class="btn-floating btn-large waves-effect waves-light" onclick="switchNightMode()" title="切换主题">
+        <i id="sum-moon-icon" class="fas fa-sun" style="width:48px; height:48px; font-size: 28px;"></i>
+    </a>
+</div>
+
+<script>
+    function switchNightMode() {
+        sessionStorage.setItem('changeTheme', true)
+        $('<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"></div></div>').appendTo($('body')),
+            setTimeout(function () {
+                $('#dark-mode').length > 0
+                    ? (document.body.removeAttribute('id'), localStorage.setItem('isDark', '0'), $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon'))
+                    : (document.body.setAttribute('id', 'dark-mode'), localStorage.setItem('isDark', '1'), $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')),
+
+                    setTimeout(function () {
+                        $('.Cuteen_DarkSky').fadeOut(1e3, function () {
+                            $(this).remove()
+                        })
+                    }, 2e3)
+            })
+    }
+</script>
+
+<!-- 暗色模式持久化和同步 -->
+<script>
+    // 检查本地存储中的主题模式
+    var isDarkMode = localStorage.getItem('isDark');
+
+    // 如果本地存储中没有设置主题模式，默认为白天模式
+    if (isDarkMode === null) {
+        isDarkMode = '0'; // 白天模式
+    }
+
+    // 根据主题模式应用相应的样式
+    if (isDarkMode === '1') {
+        document.body.setAttribute('id', 'dark-mode');
+        $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon');
+    } else {
+        document.body.removeAttribute('id');
+        $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon');
+    }
+
+    // 黑夜模式提醒开启功能
+    if (!sessionStorage.getItem("changeTheme")) {
+        if (
+            (new Date().getHours() >= 20 || new Date().getHours() < 7) &&
+            !$("#dark-mode").length > 0
+        ) {
+            document.body.setAttribute("id", "dark-mode");
+            $("#sum-moon-icon").addClass("fa-sun").removeClass("fa-moon");
+        }
+    }
+
+    // 黑夜模式持久化
+    if (localStorage.getItem('isDark') === '1') {
+        document.body.classList.add('DarkMode');
+        $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')
+    } else {
+        document.body.classList.remove('DarkMode');
+        $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon')
+    }
+</script>
+
+<!-- <div class="stars-con">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+</div> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+    <script src="/js/cursor.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+    
+     
+
+    
+
+    <!--腾讯兔小巢-->
+	
+
+    <!--背景canvas-nest-->
+    
+
+    <!--动态线条背景-->
+    <!-- color: (R,G,B)，默认:（0,0,0）opacity: 透明度（0~1），默认：0.5
+    count: 线条总数，默认：150    zIndex：表示图层所在的位置，默认：-1 -->
+    <!-- <script type="text/javascript" color="122 103 238" opacity='0.7' zIndex="-1" count="100"src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+    </script> -->
+    
+
+    <!--背景静止彩带-->
+    
+
+    <!--背景动态彩带-->
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+
+    <!--网页预加载，删除本地theme.libs.js.instantpage文件，改为使用CDN文件自动更新-->
+    
+        <script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.js" type="module"></script>
+        <!--<script src="https://instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>-->
+    
+    
+    <!-- 实现动态标题 -->
+    <script type="text/javascript">
+        var OriginTitile = document.title, st;
+        document.addEventListener("visibilitychange", function () {
+            document.hidden ? (document.title = "ヽ(●-`Д´-)ノ你要玩捉迷藏嘛", clearTimeout(st)) : (document.title = "(Ő∀Ő3)ノ好哦", st = setTimeout(function () { document.title = OriginTitile }, 3e3))
+        })
+    </script>
+
+    <!-- 添加鼠标点击烟花爆炸效果 -->
+    
+        <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
+        <!--最新版本需使用 ES6 模块语法，因此需要使用 <script type="module"> 标签。-->
+        <script type="module" src="https://cdn.jsdelivr.net/npm/animejs@4.1.3/+esm"></script>
+
+
+
+
+        <script type="text/javascript" src="/js/fireworks.js"></script>
+    
+
+    <!-- 樱花特效 -->
+    
+
+    <!-- 樱花效果 -->
+    <!-- <script type="text/javascript">
+        //只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+        }
+    </script> -->
+
+    <!-- 添加雪花飘落效果 -->
+    
+
+    <!-- 添加轮播图冒泡效果 -->
+    
+        <script src="/js/bubble.js"></script>
+    
+    
+
+    <!-- 添加鼠标彩虹星星掉落跟随效果 -->
+    <!-- <script src="/js/cursor.js"></script> -->
+    
+
+    <!--单击显示文字-->
+    <!-- <script type="text/javascript" src="/js/click_show_text.js"></script> -->
+    
+
+    <!-- 添加打字爆炸特效 -->
+    
+        <script src="/js/activate-power-mode.js"></script>
+        <script>
+            POWERMODE.colorful = true; // make power mode colorful
+            POWERMODE.shake = false; // turn off shake
+            document.body.addEventListener('input', POWERMODE);
+        </script>
+    
+    
+    <!-- 星空背景 -->
+    
+
+
+    <!-- 添加右键菜单 -->
+    
+        <div id="rightMenu" style="top: 0; left: 0; display: none;">
+            <!-- 基本操作组 -->
+            <div class="rightMenu-group rightMenu-small">
+                
+                    <div class="rightMenu-item" id="menu-backward" title="返回">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-forward" title="前进">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-refresh" title="刷新">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-top" title="返回顶部">
+                        <i class="fas fa-arrow-up"></i>
+                    </div>
+                
+            </div>
+
+            <!-- 插件操作组 -->
+            <div class="rightMenu-group rightMenu-line rightMenuPlugin" style="display:none">
+                
+                    <div class="rightMenu-item" id="menu-copytext" style="display:none">
+                        <i class="fas fa-copy"></i>
+                        <span>复制选中</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-copylink" style="display:none">
+                        <i class="fas fa-link"></i>
+                        <span>复制链接</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-pastetext" style="display:none">
+                        <i class="fas fa-paste"></i>
+                        <span>粘贴文本</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-commenttext" style="display:none">
+                        <i class="fas fa-comment-medical"></i>
+                        <span>引用到评论</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-newwindow" style="display:none">
+                        <i class="fas fa-window-restore"></i>
+                        <span>新窗口打开</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-copyimg" style="display:none">
+                        <i class="fas fa-images"></i>
+                        <span>复制此图片</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-downloadimg" style="display:none">
+                        <i class="fas fa-download"></i>
+                        <span>下载此图片</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-search" style="display:none">
+                        <i class="fas fa-magnifying-glass"></i>
+                        <span>站内搜索</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-searchBing" style="display:none">
+                        <i class="fas fa-magnifying-glass"></i>
+                        <span>必应搜索</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-music-toggle" style="display:none">
+                        <i class="fas fa-play"></i>
+                        <span>播放音乐</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-music-back" style="display:none">
+                        <i class="fas fa-backward"></i>
+                        <span>切换到上一首</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-music-forward" style="display:none">
+                        <i class="fas fa-forward"></i>
+                        <span>切换到下一首</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-music-playlist" style="display:none">
+                        <i class="fas fa-radio"></i>
+                        <span>查看所有歌曲</span>
+                    </div>
+                
+                    <div class="rightMenu-item" id="menu-music-copyMusicName" style="display:none">
+                        <i class="fas fa-copy"></i>
+                        <span>复制歌名</span>
+                    </div>
+                
+            </div>
+
+            <!-- 其他操作组 -->
+            <div class="rightMenu-group rightMenu-line rightMenuOther">
+                
+                    <a class="rightMenu-item menu-link" href="https://travel.moe/go.html" id="menu-randomWebsite" target="_blank" rel="noopener">
+                        <i class="fas fa-paper-plane"></i>
+                        <span class="">次元跃迁</span>
+                    </a>
+                
+                    <a class="rightMenu-item menu-link" href="#" id="menu-randomPost" target="_self" rel="noopener">
+                        <i class="fas fa-shoe-prints"></i>
+                        <span class="">随便逛逛</span>
+                    </a>
+                
+                    <a class="rightMenu-item menu-link" href="/categories/" id="menu-categories" target="_blank" rel="noopener">
+                        <i class="fas fa-cube"></i>
+                        <span class="">博客分类</span>
+                    </a>
+                
+                    <a class="rightMenu-item menu-link" href="/tags/" id="menu-tags" target="_blank" rel="noopener">
+                        <i class="fas fa-tags"></i>
+                        <span class="">文章标签</span>
+                    </a>
+                
+                    <a class="rightMenu-item menu-link" href="/privacy/" id="menu-privacy" target="_blank" rel="noopener">
+                        <i class="fas fa-hands"></i>
+                        <span class="">隐私协议</span>
+                    </a>
+                
+                    <a class="rightMenu-item menu-link" href="/cc/" id="menu-cc" target="_blank" rel="noopener">
+                        <i class="fas fa-closed-captioning"></i>
+                        <span class="">版权协议</span>
+                    </a>
+                
+                    <a class="rightMenu-item menu-link" href="/SEAEPOCH-WRITING-STANDARDS/" id="menu-writing" target="_blank" rel="noopener">
+                        <i class="fas fa-feather"></i>
+                        <span class="">行文规范</span>
+                    </a>
+                
+                    <a class="rightMenu-item menu-link" href="#" id="menu-copy" target="_self" rel="noopener">
+                        <i class="fas fa-copy"></i>
+                        <span class="">复制地址</span>
+                    </a>
+                
+                    <a class="rightMenu-item menu-link" href="#" id="menu-darkmode" target="_self" rel="noopener">
+                        <i class="fas fa-moon"></i>
+                        <span class="menu-darkmode-text">深色模式</span>
+                    </a>
+                
+            </div>
+        </div>
+        <div id="rightmenu-mask" style="display: none"></div>
+
+        <script type="text/javascript" src="/js/rightMenu.js"></script>
+        <script>addRightMenuClickEvent()</script>
+    
+    
+
+
+        <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
+        <script>
+        const hasAttr = (e,a) => a.some(_=> e.attr(_)!==undefined);
+        $('a').each(function() {
+          const $this = $(this);
+          if(hasAttr($this,["data-fancybox","ignore-external-link"])) return;
+          const href = $this.attr('href');
+          if (href && href.match('^((http|https|thunder|qqdl|ed2k|Flashget|qbrowser|ftp|rtsp|mms)://)')) {
+            const strs = href.split('/');
+            if (strs.length >= 3) {
+                const host = strs[2];
+                if (host !== 'your_domain' || window.location.host) {
+                    $this.attr('href', '/go.html?u='+Base64.encode(href)+'').attr('rel', 'external nofollow noopener noreferrer');
+                    if (true) {
+                        $this.attr('target', '_blank');
+                    }
+                }
+            }
+          }
+        });
+        </script></body>
+
+</html>

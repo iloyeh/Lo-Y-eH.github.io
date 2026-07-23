@@ -1,0 +1,304 @@
+:root {
+    /* 使用变量定义主要颜色 */
+    --primary-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.loader-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(45deg, rgb(90, 54, 148) 0%, rgb(19, 189, 206) 33%, rgb(0, 148, 217) 66%, rgb(111, 199, 181) 100%);
+    background-size: 400%;
+    background-position: 0% 100%;
+    animation: gradient 7.5s ease-in-out infinite;
+}
+
+.loader,
+.loader::before,
+.loader::after,
+.loader img {
+    border-radius: 50%;
+    position: absolute;
+    border: 3px solid transparent;
+    border-top-color: var(--primary-color);
+}
+
+.loader {
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    top: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin 1.7s linear infinite;
+}
+
+.loader::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    animation: spin 0.6s linear infinite reverse;
+}
+
+.loader::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    animation: spin 1s linear infinite;
+}
+
+.loader img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.loader-text {
+    width: 50%;
+    height: 36px;
+    position: absolute;
+    top: 72%;
+    left: 55%;        /* 把下方文字动画，从50%调整到55%，稍微向右移动 */
+    transform: translateX(-50%);
+    z-index: 3;
+    user-select: none;
+}
+
+.loader-text div {
+    width: 30px;
+    height: 36px;
+    color: var(--primary-color);
+    font-size: 32px;
+    margin: 0 20px;
+    position: absolute;
+    opacity: 0;
+    transform: rotate(180deg);
+    animation: move 2s linear infinite;
+}
+
+.loader-text div:nth-child(8)::before,
+.loader-text div:nth-child(9)::before,
+.loader-text div:nth-child(10)::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.loader-text div::after,
+.loader-text div:nth-child(8)::after,
+.loader-text div:nth-child(9)::after,
+.loader-text div:nth-child(10)::after {
+    content: "";
+    width: 10px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.loader-text div:nth-child(8)::after,
+.loader-text div:nth-child(9)::after,
+.loader-text div:nth-child(10)::after {
+    left: 50%; /* 保持统一对齐 */
+    transform: translateX(-50%);
+}
+
+/* ----------增加垂直位置调整--------------- */
+.loader-text div::after {
+    bottom: -30px; /* 根据实际效果微调 */
+    opacity: 0.8; /* 适当降低透明度 */
+    animation: pulse 1.5s ease-in-out infinite; /* 添加呼吸效果 */
+}
+
+@keyframes pulse {
+    0%, 100% { transform: translateX(-50%) scale(1); }
+    50% { transform: translateX(-50%) scale(1.2); }
+}
+/*-------------------------------------------*/
+
+.loader-text div:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.loader-text div:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.loader-text div:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.loader-text div:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.loader-text div:nth-child(6) {
+    animation-delay: 1s;
+}
+
+.loader-text div:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+.loader-text div:nth-child(8) {
+    animation-delay: 1.4s;
+}
+
+.loader-text div:nth-child(9) {
+    animation-delay: 1.6s;
+}
+
+.loader-text div:nth-child(10) {
+    animation-delay: 1.8s;
+}
+
+@keyframes gradient {
+    50% {
+        background-position: 100% 0%;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes move {
+    0% {
+        right: 0;
+        opacity: 0;
+    }
+
+    35% {
+        right: 41%;
+        opacity: 1;
+        transform: rotate(0);
+    }
+
+    65% {
+        right: 59%;
+        opacity: 1;
+        transform: rotate(0);
+    }
+
+    100% {
+        right: 100%;
+        transform: rotate(-180deg);
+    }
+}
+
+/* 小屏幕下(手机类)的样式 */
+@media only screen and (max-width: 601px) {
+    .loader {
+        width: 120px;
+        height: 120px;
+        margin-left: -50px;
+        margin-top: -50px;
+    }
+
+    .loader img {
+        width: 66%;
+        height: 66%;
+    }
+
+    .loader-text {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    .loader-text div {
+        width: 20px;
+        height: 24px;
+        font-size: 18px;
+    }
+}
+
+/* 中等屏幕下(平板类)的样式 */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .loader {
+        width: 150px;
+        height: 150px;
+        margin-left: -60px;
+        margin-top: -60px;
+    }
+
+    .loader img {
+        width: 66%;
+        height: 66%;
+    }
+
+    .loader-text {
+        width: 60%;
+        font-size: 28px;
+    }
+
+    .loader-text div {
+        width: 25px;
+        height: 30px;
+        font-size: 24px;
+    }
+}
+
+/* 大屏幕下(桌面类)的样式 */
+@media only screen and (min-width: 993px) {
+    .loader {
+        width: 200px;
+        height: 200px;
+        margin-left: -90px;
+        margin-top: -90px;
+    }
+
+    .loader img {
+        width: 66%;
+        height: 66%;
+    }
+
+    .loader-text {
+        width: 50%;
+        font-size: 36px;
+    }
+
+    .loader-text div {
+        width: 30px;
+        height: 36px;
+        font-size: 32px;
+    }
+}

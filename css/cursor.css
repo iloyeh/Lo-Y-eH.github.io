@@ -1,0 +1,38 @@
+/* 设置 body, div, html, span 元素的光标 */
+body,
+div,
+html,
+span {
+    cursor: url(/medias/normal.png), auto !important;
+}
+
+/* 设置 #vcomments 下的 svg 元素，a 链接，button 按钮的光标 */
+#vcomments svg,
+a,
+button {
+    cursor: url(/medias/a.png), auto !important;
+}
+
+/* 设置 Firefox 浏览器的文本选择光标 */
+::-moz-selection {
+    cursor: url(/medias/love.png), auto !important;
+}
+
+/* 设置其他浏览器的文本选择光标，img 图片，pre 格式化文本，select 下拉框的光标 */
+::selection,
+img,
+pre,
+select {
+    cursor: url(/medias/love.png), auto !important;
+}
+
+/* 设置 input 输入框，textarea 文本区域的光标 */
+input,
+textarea {
+    cursor: url(/medias/text.png), auto !important;
+}
+
+/* 设置类名为 celeste 的元素下的 canvas 画布元素的光标 */
+.celeste canvas {
+    cursor: url(/medias/move.png), auto !important;
+}

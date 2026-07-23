@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>loyeh</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://iloyeh.github.io/</id>
+  <link href="https://iloyeh.github.io/" rel="alternate"/>
+  <link href="https://iloyeh.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, loyeh</rights>
+  <subtitle>北冥有鱼</subtitle>
+  <title>loyeh の Oasis</title>
+  <updated>2026-07-23T13:55:58.858Z</updated>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="笔记" scheme="https://iloyeh.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="汇编" scheme="https://iloyeh.github.io/tags/%E6%B1%87%E7%BC%96/"/>
+    <id>https://iloyeh.github.io/posts/ec85/</id>
+    <link href="https://iloyeh.github.io/posts/ec85/"/>
+    <published>2026-07-23T13:55:58.858Z</published>
+    <title>汇编语言</title>
+    <updated>2026-07-23T13:55:58.858Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="GitHub Actions" scheme="https://iloyeh.github.io/tags/GitHub-Actions/"/>
+    <category term="CI/CD" scheme="https://iloyeh.github.io/tags/CI-CD/"/>
+    <id>https://iloyeh.github.io/posts/6eef/</id>
+    <link href="https://iloyeh.github.io/posts/6eef/"/>
+    <published>2026-06-05T18:04:25.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="使用-GitHub-Actions-自动部署-Hexo-博客"><a href="#使用-GitHub-Actions-自动部署-Hexo-博客" class="headerlink" title="使用 GitHub Actions 自动部署 Hexo]]>
+    </summary>
+    <title>GitHub Actions 自动部署博客</title>
+    <updated>2026-07-23T13:55:58.852Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="WezTerm" scheme="https://iloyeh.github.io/tags/WezTerm/"/>
+    <category term="Nushell" scheme="https://iloyeh.github.io/tags/Nushell/"/>
+    <category term="Starship" scheme="https://iloyeh.github.io/tags/Starship/"/>
+    <id>https://iloyeh.github.io/posts/98a4/</id>
+    <link href="https://iloyeh.github.io/posts/98a4/"/>
+    <published>2026-05-12T13:34:42.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="打造极致终端体验：WezTerm-Nushell-Starship-完全配置指南"><a href="#打造极致终端体验：WezTerm-Nushell-Starship-完全配置指南" class="headerlink"]]>
+    </summary>
+    <title>WezTerm终端配置指南</title>
+    <updated>2026-07-23T13:55:58.854Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="大模型" scheme="https://iloyeh.github.io/categories/%E5%A4%A7%E6%A8%A1%E5%9E%8B/"/>
+    <category term="claude" scheme="https://iloyeh.github.io/tags/claude/"/>
+    <id>https://iloyeh.github.io/posts/cda9/</id>
+    <link href="https://iloyeh.github.io/posts/cda9/"/>
+    <published>2025-10-21T10:11:13.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="Claude-Code-安装配置"><a href="#Claude-Code-安装配置" class="headerlink" title="Claude Code 安装配置"></a>Claude Code]]>
+    </summary>
+    <title>Claude Code 安装配置</title>
+    <updated>2026-07-23T13:55:58.852Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="问题解决" scheme="https://iloyeh.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    <category term="乱码" scheme="https://iloyeh.github.io/tags/%E4%B9%B1%E7%A0%81/"/>
+    <id>https://iloyeh.github.io/posts/7293/</id>
+    <link href="https://iloyeh.github.io/posts/7293/"/>
+    <published>2025-10-18T13:54:47.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="解决部分程序中文乱码"><a href="#解决部分程序中文乱码" class="headerlink" title="解决部分程序中文乱码"></a>解决部分程序中文乱码</h1><p>最近在使用 <strong>Git Bash</strong>]]>
+    </summary>
+    <title>解决部分程序中文乱码</title>
+    <updated>2026-07-23T13:55:58.859Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="问题解决" scheme="https://iloyeh.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    <category term="外链" scheme="https://iloyeh.github.io/tags/%E5%A4%96%E9%93%BE/"/>
+    <id>https://iloyeh.github.io/posts/4178/</id>
+    <link href="https://iloyeh.github.io/posts/4178/"/>
+    <published>2025-10-07T21:59:37.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="外部链接错误跳转的原因与解决"><a href="#外部链接错误跳转的原因与解决" class="headerlink" title="外部链接错误跳转的原因与解决"></a>外部链接错误跳转的原因与解决</h1><h2 id="一、问题现象"><a]]>
+    </summary>
+    <title>外部链接错误跳转的原因和解决</title>
+    <updated>2026-07-23T13:55:58.857Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="大模型" scheme="https://iloyeh.github.io/categories/%E5%A4%A7%E6%A8%A1%E5%9E%8B/"/>
+    <category term="langchain" scheme="https://iloyeh.github.io/tags/langchain/"/>
+    <id>https://iloyeh.github.io/posts/3246/</id>
+    <link href="https://iloyeh.github.io/posts/3246/"/>
+    <published>2025-10-05T11:18:41.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p><strong>每一次对话，都是重新开始</strong></p>
+</blockquote>
+<p>当我们与 ChatGPT、文心一言等大语言模型进行流畅的多轮对话时，很容易产生一种错觉：这个 AI]]>
+    </summary>
+    <title>为什么大模型记不住你的名字？</title>
+    <updated>2026-07-23T13:55:58.855Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="问题解决" scheme="https://iloyeh.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    <category term="claude" scheme="https://iloyeh.github.io/tags/claude/"/>
+    <category term="copilot" scheme="https://iloyeh.github.io/tags/copilot/"/>
+    <id>https://iloyeh.github.io/posts/234d/</id>
+    <link href="https://iloyeh.github.io/posts/234d/"/>
+    <published>2025-09-22T09:59:26.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="GitHub-Copilot-Claude模型消失"><a href="#GitHub-Copilot-Claude模型消失" class="headerlink" title="GitHub Copilot Claude模型消失"></a>GitHub]]>
+    </summary>
+    <title>GitHub Copilot Claude模型消失</title>
+    <updated>2026-07-23T13:55:58.852Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="问题解决" scheme="https://iloyeh.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    <category term="FontAwesome" scheme="https://iloyeh.github.io/tags/FontAwesome/"/>
+    <id>https://iloyeh.github.io/posts/d3d8/</id>
+    <link href="https://iloyeh.github.io/posts/d3d8/"/>
+    <published>2025-08-20T00:29:34.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>如果从低版本更新到Font Awesome 7，可能出现问题：<strong>图标和文字垂直排列</strong></p>
+<p><img]]>
+    </summary>
+    <title>切换Font Awesome 7后图标变形解决</title>
+    <updated>2026-07-23T13:55:58.856Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="站长必会" scheme="https://iloyeh.github.io/categories/%E7%AB%99%E9%95%BF%E5%BF%85%E4%BC%9A/"/>
+    <category term="FontAwesome" scheme="https://iloyeh.github.io/tags/FontAwesome/"/>
+    <id>https://iloyeh.github.io/posts/4ae2/</id>
+    <link href="https://iloyeh.github.io/posts/4ae2/"/>
+    <published>2025-08-18T10:57:30.000Z</published>
+    <summary>
+      <![CDATA[<p>在现代网页设计中，图标是提升用户体验的关键元素。而 Font Awesome 作为最受欢迎的图标库，其最新版本 Font Awesome 7 通过 Kit 功能提供了更便捷高效的集成方式。本文将带你全面了解如何使用 Font Awesome]]>
+    </summary>
+    <title>Font Awesome Kit 使用详解</title>
+    <updated>2026-07-23T13:55:58.852Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="web" scheme="https://iloyeh.github.io/categories/web/"/>
+    <category term="IPv4" scheme="https://iloyeh.github.io/tags/IPv4/"/>
+    <category term="IPv6" scheme="https://iloyeh.github.io/tags/IPv6/"/>
+    <id>https://iloyeh.github.io/posts/59bc/</id>
+    <link href="https://iloyeh.github.io/posts/59bc/"/>
+    <published>2024-10-15T18:48:39.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p>本文将带你系统理解 IP 地址体系的演化，从最初的 IPv4，到子网划分、CIDR+路由聚合、私有 IP+NAT，再到 IPv6。我们不止讲“是什么”，更要讲“为什么”。</p>
+</blockquote>
+<hr>
+<h2]]>
+    </summary>
+    <title>从IPv4到IPv6的演进之路</title>
+    <updated>2026-07-23T13:55:58.855Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="笔记" scheme="https://iloyeh.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="Redis" scheme="https://iloyeh.github.io/tags/Redis/"/>
+    <id>https://iloyeh.github.io/posts/6337/</id>
+    <link href="https://iloyeh.github.io/posts/6337/"/>
+    <published>2024-10-09T18:11:03.000Z</published>
+    <summary>
+      <![CDATA[<p>Redis的下载与配置可以参考以下文章，写得十分清晰：</p>
+<ul>
+<li><a]]>
+    </summary>
+    <title>Redis安装与设置</title>
+    <updated>2026-07-23T13:55:58.853Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="github" scheme="https://iloyeh.github.io/tags/github/"/>
+    <id>https://iloyeh.github.io/posts/bdb4/</id>
+    <link href="https://iloyeh.github.io/posts/bdb4/"/>
+    <published>2024-08-21T17:17:36.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="Github-2FA"><a href="#Github-2FA" class="headerlink" title="Github 2FA"></a>Github 2FA</h1><p>双因素身份验证（Two-Factor]]>
+    </summary>
+    <title>Github 2FA — 插件法</title>
+    <updated>2026-07-23T13:55:58.852Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="笔记" scheme="https://iloyeh.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="软件" scheme="https://iloyeh.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://iloyeh.github.io/posts/b7fa/</id>
+    <link href="https://iloyeh.github.io/posts/b7fa/"/>
+    <published>2024-07-30T10:53:25.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="图"><a href="#图" class="headerlink" title="图"></a>图</h1><h2 id="辅助函数"><a href="#辅助函数" class="headerlink"]]>
+    </summary>
+    <title>图</title>
+    <updated>2026-07-23T13:55:58.857Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="笔记" scheme="https://iloyeh.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="词缀" scheme="https://iloyeh.github.io/tags/%E8%AF%8D%E7%BC%80/"/>
+    <id>https://iloyeh.github.io/posts/aef1/</id>
+    <link href="https://iloyeh.github.io/posts/aef1/"/>
+    <published>2024-07-15T11:14:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="词缀助记总结"><a href="#词缀助记总结" class="headerlink" title="词缀助记总结"></a>词缀助记总结</h1><p>总结性的东西：</p>
+<ol>
+<li><p><strong>sl-</strong> 开头的短词大多与]]>
+    </summary>
+    <title>词缀助记</title>
+    <updated>2026-07-23T13:55:58.860Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="笔记" scheme="https://iloyeh.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="查找" scheme="https://iloyeh.github.io/tags/%E6%9F%A5%E6%89%BE/"/>
+    <id>https://iloyeh.github.io/posts/c1a6/</id>
+    <link href="https://iloyeh.github.io/posts/c1a6/"/>
+    <published>2024-07-13T17:11:33.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h1><h2 id="线性结构"><a href="#线性结构" class="headerlink"]]>
+    </summary>
+    <title>查找</title>
+    <updated>2026-07-23T13:55:58.857Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="笔记" scheme="https://iloyeh.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="并查集" scheme="https://iloyeh.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    <id>https://iloyeh.github.io/posts/f171/</id>
+    <link href="https://iloyeh.github.io/posts/f171/"/>
+    <published>2024-06-23T21:39:07.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="并查集"><a href="#并查集" class="headerlink"]]>
+    </summary>
+    <title>并查集</title>
+    <updated>2026-07-23T13:55:58.857Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="Linux" scheme="https://iloyeh.github.io/categories/Linux/"/>
+    <category term="centos" scheme="https://iloyeh.github.io/tags/centos/"/>
+    <id>https://iloyeh.github.io/posts/5c9f/</id>
+    <link href="https://iloyeh.github.io/posts/5c9f/"/>
+    <published>2024-06-18T17:36:20.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="centos安装docker"><a href="#centos安装docker" class="headerlink" title="centos安装docker"></a>centos安装docker</h1><p>由于直接在虚拟机里的终端</p>
+<h2]]>
+    </summary>
+    <title>centos安装docker</title>
+    <updated>2026-07-23T13:55:58.854Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="资源" scheme="https://iloyeh.github.io/categories/%E8%B5%84%E6%BA%90/"/>
+    <category term="pdf" scheme="https://iloyeh.github.io/tags/pdf/"/>
+    <id>https://iloyeh.github.io/posts/810b/</id>
+    <link href="https://iloyeh.github.io/posts/810b/"/>
+    <published>2024-06-18T12:24:22.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="PDF工具"><a href="#PDF工具" class="headerlink" title="PDF工具"></a>PDF工具</h1><p>在平时的工作过程中，不可避免的会遇到pdf的处理问题……这里推荐一个网页工具——PDF24</p>
+<h2]]>
+    </summary>
+    <title>pdf工具推荐</title>
+    <updated>2026-07-23T13:55:58.855Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>loyeh</name>
+    </author>
+    <category term="Linux" scheme="https://iloyeh.github.io/categories/Linux/"/>
+    <category term="xshell" scheme="https://iloyeh.github.io/tags/xshell/"/>
+    <id>https://iloyeh.github.io/posts/d757/</id>
+    <link href="https://iloyeh.github.io/posts/d757/"/>
+    <published>2024-06-15T21:37:08.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="xshell文件传输"><a href="#xshell文件传输" class="headerlink" title="xshell文件传输"></a>xshell文件传输</h1><p>在Xshell中进行文件传输几种常见的情况和方法：</p>
+<h2]]>
+    </summary>
+    <title>xshell文件传输</title>
+    <updated>2026-07-23T13:55:58.855Z</updated>
+  </entry>
+</feed>

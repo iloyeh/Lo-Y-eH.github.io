@@ -1,0 +1,228 @@
+body {
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.not-found {
+    position: relative;
+    overflow: hidden;
+    margin: -1vh -20vw;
+    height: 110vh;
+    background-image: radial-gradient(circle at 50% 47%, #357a7d, #1c405f);
+}
+
+.not-found [class*=wave] {
+    position: absolute;
+}
+
+.not-found div {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.not-found div.wave-1 {
+    background: url(../medias/wave-1.svg);
+    height: 35%;
+}
+
+.not-found div.wave-2 {
+    background: url(../medias/wave-2.svg);
+    height: 25%;
+}
+
+.not-found div.wave-3 {
+    background: url(../medias/wave-3.svg);
+    height: 30%;
+}
+
+.not-found div.wave-4 {
+    background: url(../medias/wave-4.svg);
+    height: 14%;
+}
+
+.not-found div.wave-5 {
+    background: url(../medias/wave-5.svg);
+    height: 40%;
+}
+
+.not-found div.wave-6 {
+    background: url(../medias/wave-6.svg);
+    height: 35%;
+}
+
+.not-found div.wave-7 {
+    background: url(../medias/wave-7.svg);
+    height: 40%;
+}
+
+.not-found div.sky-bg {
+    /* background: url(../medias/bg.svg); */
+    background: url(../medias/bg-stars.png);
+    height: 100%;
+}
+
+.not-found div[class*=wave] {
+    opacity: 0.99;
+}
+
+.not-found div[class*=wave]:not(.wave-4) {
+    height: calc(100% - 350px);
+}
+
+.not-found div.wave-4 {
+    height: calc(100% - 530px);
+}
+
+.not-found .boat {
+    position: absolute;
+    top: 0;
+    right: 15%;
+    width: 150px;
+    animation: boat 15s cubic-bezier(0.65, 0.05, 0.36, 1) infinite;
+}
+
+.not-found .wave-lost {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: #fff;
+    font-size: 16rem;
+    animation: surf 2s;
+}
+
+@media (max-width: 768px) {
+    .not-found .wave-lost {
+        font-size: 13rem;
+        left: 16%;
+    }
+}
+
+@media (max-width: 992px) {
+    .not-found .wave-lost {
+        font-size: 20rem;
+        left: 22%;
+    }
+}
+
+.not-found .wave-lost span {
+    float: left;
+    animation: float 3s ease-in infinite;
+}
+
+.not-found .wave-lost span:nth-child(2) {
+    animation-delay: 2.5s;
+}
+
+.not-found .wave-lost span:nth-child(3) {
+    animation-delay: 4.5s;
+}
+
+.not-found .wave-island {
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    padding: 10px;
+    width: 170px;
+    animation: float 5s ease-in-out infinite;
+}
+
+.not-found .wave-message {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    padding-right: 50%;
+    height: auto !important;
+    color: #fff;
+    font-size: 2rem;
+    text-align: left;
+    animation: wave-message 1s;
+}
+
+@media (max-width: 768px) {
+    .not-found .wave-message {
+        left: 16%;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .not-found .wave-message {
+        left: 22%;
+        font-size: 3rem;
+    }
+}
+
+@keyframes boat {
+    0% {
+        transform-origin: left;
+        transform: rotate(-15deg) translate3d(400px, 0px, 0px);
+    }
+
+    20% {
+        transform-origin: left;
+        transform: rotate(15deg) translate3d(-20vw, 0, 0px);
+    }
+
+    25% {
+        transform-origin: left;
+        transform: rotate(-7deg) translate3d(-25vw, 0, 0px);
+    }
+
+    50% {
+        transform-origin: left;
+        transform: rotate(5deg) translate3d(-50vw, 0, 0px);
+    }
+
+    60% {
+        transform-origin: left;
+        transform: rotate(-1deg) translate3d(-60vw, 0, 0px);
+    }
+
+    100% {
+        transform-origin: left;
+        transform: rotate(2deg) translate3d(-100vw, 0, 0px);
+    }
+}
+
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: rotate(3deg) translate3d(0px, -10px, 0px);
+    }
+
+    50% {
+        transform: rotate(-3deg) translate3d(0px, 10px, 0px);
+    }
+}
+
+@keyframes surf {
+    0% {
+        transform-origin: right;
+        transform: rotate(15deg) translate3d(0, 800px, 0);
+    }
+
+    30% {
+        transform-origin: right;
+        transform: rotate(15deg) translate3d(0, 500px, 0);
+    }
+
+    100% {
+        transform-origin: right;
+        transform: rotate(0) translate3d(0, 0, 0px);
+    }
+}
+
+@keyframes wave-message {
+    0% {
+        transform: translate3d(0, 120%, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}

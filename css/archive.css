@@ -1,0 +1,280 @@
+/* 基础样式重置 */
+.archive-container {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+
+/* 切换按钮样式 - 只影响切换区域的chip */
+.switch-card {
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.tag-chips {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tag-chips .chip {
+    padding: 8px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    margin: 0;
+}
+
+.tag-chips .active-chip {
+    background: linear-gradient(135deg, #6BB9E0, #338CBA);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(51, 140, 186, 0.3);
+}
+
+.tag-chips .inactive-chip {
+    background: #f8f9fa;
+    color: #6c757d;
+}
+
+.tag-chips .inactive-chip:hover {
+    background: #e9ecef;
+    transform: translateY(-1px);
+    box-shadow: none !important; /* 悬停时不要阴影 */
+}
+
+/* 时间列表样式 - 两列布局 */
+.year-header {
+    margin: 30px 0 20px 0;
+    position: relative;
+}
+
+.archive-year {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+    position: relative;
+}
+
+.archive-year i {
+    color: #667eea;
+    font-size: 20px;
+}
+
+.year-line {
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(to right, #667eea, transparent);
+    margin-left: 20px;
+}
+
+.archive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.archive-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.08);
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(10px);
+}
+
+.archive-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.15);
+    border-color: rgba(102, 126, 234, 0.3);
+}
+
+.archive-date {
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.date-circle {
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(135deg, #6BB9E0, #338CBA);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(51, 140, 186, 0.3);
+}
+
+.date-circle .day {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.date-circle .month-day {
+    font-size: 9px;
+    opacity: 0.9;
+}
+
+.archive-content {
+    flex: 1;
+    padding-top: 2px;
+}
+
+/* 只对时间列表的post-title应用样式 */
+#cd-table .post-title {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+#cd-table .post-title a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#cd-table .post-title a:hover {
+    color: #667eea;
+}
+
+#cd-table .post-meta {
+    display: flex;
+    gap: 12px;
+    font-size: 11px;
+    color: #6c757d;
+}
+
+#cd-table .post-meta span {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#cd-table .post-meta i {
+    font-size: 10px;
+}
+
+#cd-table .post-category a {
+    color: #667eea;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#cd-table .post-category a:hover {
+    color: #4fc3f7;
+    text-decoration: underline;
+}
+
+/* 性能优化相关样式 */
+.year-count {
+    font-size: 14px;
+    color: #999;
+    font-weight: normal;
+    margin-left: 8px;
+}
+
+/* 虚拟滚动容器优化 */
+#timeline-content {
+    contain: layout style paint;
+}
+
+/* GPU加速优化 */
+.timeline-card,
+.archive-item,
+.lazy-image {
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+/* 减少重绘 */
+.cd-timeline-block {
+    contain: layout;
+}
+
+
+/* 暗黑模式下时间列表优化 */
+#dark-mode .archive-item {
+    background: rgba(52, 73, 94, 0.8);
+    border-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+#dark-mode .archive-item:hover {
+    background-color: rgba(52, 73, 94, 0.9);
+    border-color: rgba(102, 126, 234, 0.5);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+}
+
+#dark-mode #cd-table .post-title a {
+    color: #ecf0f1;
+}
+
+#dark-mode #cd-table .post-title a:hover {
+    color: #667eea;
+}
+
+#dark-mode #cd-table .post-meta {
+    color: #bdc3c7;
+}
+
+#dark-mode #cd-table .post-category a {
+    color: #667eea;
+}
+
+#dark-mode #cd-table .post-category a:hover {
+    color: #4fc3f7;
+}
+
+#dark-mode .archive-year {
+    color: #ecf0f1;
+}
+
+/* 白天模式的小花花背景图 */
+.card,
+.archive-container {
+    background-image: url('/medias/flowerbg-white.png');
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+/* 黑夜模式的小花花背景图 */
+#dark-mode .card,
+#dark-mode .archive-container {
+    background-image: url('/medias/flowerbg-black.png') !important;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+/* 暗黑模式下切换按钮的样式优化 */
+#dark-mode .tag-chips .inactive-chip {
+    background: #34495e;
+    color: #ecf0f1;
+}
+
+#dark-mode .tag-chips .inactive-chip:hover {
+    background: #4a5f7a;
+}

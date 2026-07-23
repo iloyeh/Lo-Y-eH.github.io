@@ -1,0 +1,372 @@
+/* Blog pagination: compact glass surface with accessible 48px controls. */
+.paging {
+    --paging-accent: #188fc5;
+    --paging-accent-light: #38bdf8;
+    --paging-surface: rgba(255, 255, 255, 0.82);
+    --paging-control: rgba(241, 245, 249, 0.9);
+    --paging-control-hover: #fff;
+    --paging-border: rgba(23, 124, 176, 0.18);
+    --paging-divider: rgba(71, 85, 105, 0.16);
+    --paging-text: #334155;
+    --paging-muted: #7c8ca0;
+    width: calc(100% - 32px) !important;
+    max-width: 1180px;
+    height: auto;
+    margin: 34px auto 30px;
+    padding: 0;
+    color: var(--paging-text);
+    background: transparent;
+    box-shadow: none;
+    line-height: normal;
+}
+
+.pagination-shell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 14px 16px;
+    border: 1px solid var(--paging-border);
+    border-radius: 24px;
+    background: var(--paging-surface);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.14),
+                inset 0 1px 0 rgba(255, 255, 255, 0.35);
+    -webkit-backdrop-filter: blur(18px) saturate(135%);
+    backdrop-filter: blur(18px) saturate(135%);
+}
+
+.pagination-main,
+.quick-pages,
+.jump-to-page,
+.page-status {
+    display: flex;
+    align-items: center;
+}
+
+.pagination-main,
+.quick-pages {
+    gap: 8px;
+}
+
+.pagination-control {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: 48px;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    color: var(--paging-text);
+    background: var(--paging-control);
+    box-shadow: none;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: none;
+    user-select: none;
+    transition: color 180ms ease,
+                background-color 180ms ease,
+                border-color 180ms ease,
+                box-shadow 180ms ease,
+                transform 180ms ease;
+}
+
+a.pagination-control:hover,
+button.pagination-control:hover {
+    color: var(--paging-accent);
+    border-color: rgba(24, 143, 197, 0.38);
+    background: var(--paging-control-hover);
+    box-shadow: 0 9px 22px rgba(24, 143, 197, 0.16);
+    transform: translateY(-2px);
+}
+
+a.pagination-control:active,
+button.pagination-control:active {
+    transform: translateY(0) scale(0.97);
+}
+
+.pagination-control:focus-visible,
+.jump-input:focus-visible {
+    outline: 3px solid rgba(56, 189, 248, 0.38);
+    outline-offset: 3px;
+}
+
+.paging .pagination-control i {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    line-height: 1;
+}
+
+.pagination-nav {
+    min-width: 54px;
+    padding: 0 17px;
+    gap: 9px;
+}
+
+.pagination-nav i {
+    font-size: 0.88rem;
+}
+
+.nav-label {
+    white-space: nowrap;
+    font-size: 0.9rem;
+}
+
+.page-btn {
+    width: 48px;
+    min-width: 48px;
+    padding: 0;
+    font-variant-numeric: tabular-nums;
+}
+
+.current-page {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.2);
+    background: linear-gradient(135deg, var(--paging-accent-light), var(--paging-accent) 62%, #116a9c);
+    box-shadow: 0 10px 24px rgba(24, 143, 197, 0.35),
+                inset 0 1px 0 rgba(255, 255, 255, 0.28);
+    cursor: default;
+}
+
+.page-ellipsis {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 48px;
+    color: var(--paging-muted);
+    font-size: 1.05rem;
+    letter-spacing: 2px;
+    user-select: none;
+}
+
+.pagination-control.is-disabled {
+    color: var(--paging-muted);
+    background: transparent;
+    border-color: var(--paging-divider);
+    opacity: 0.48;
+    cursor: not-allowed;
+}
+
+.jump-to-page {
+    position: relative;
+    gap: 8px;
+    margin: 0;
+    padding-left: 17px;
+    border-left: 1px solid var(--paging-divider);
+}
+
+.jump-label {
+    color: var(--paging-muted);
+    font-size: 0.86rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding: 0 12px;
+    border: 1px solid var(--paging-divider);
+    border-radius: 14px;
+    background: var(--paging-control);
+    transition: background-color 180ms ease,
+                border-color 180ms ease,
+                box-shadow 180ms ease;
+}
+
+.input-container:focus-within {
+    border-color: rgba(24, 143, 197, 0.58);
+    background: var(--paging-control-hover);
+    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.12);
+}
+
+.jump-input {
+    width: 38px !important;
+    height: 46px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0;
+    color: var(--paging-text);
+    background: transparent !important;
+    box-shadow: none !important;
+    font-size: 0.96rem !important;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.jump-input::-webkit-inner-spin-button,
+.jump-input::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}
+
+.jump-input::placeholder {
+    color: var(--paging-text);
+    opacity: 0.72;
+}
+
+.input-total {
+    padding-left: 7px;
+    border-left: 1px solid var(--paging-divider);
+    color: var(--paging-muted);
+    font-size: 0.82rem;
+    font-weight: 600;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+
+.jump-btn {
+    min-width: 72px;
+    padding: 0 15px;
+    gap: 8px;
+    color: #fff;
+    border-color: transparent;
+    background: linear-gradient(135deg, #2196c9, #1775a8);
+    box-shadow: 0 8px 18px rgba(23, 117, 168, 0.22);
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.jump-btn i {
+    font-size: 0.78rem;
+}
+
+.page-status {
+    justify-content: center;
+    min-width: 142px;
+    height: 52px;
+    padding: 0 15px;
+    gap: 5px;
+    border: 1px solid var(--paging-divider);
+    border-radius: 15px;
+    background: var(--paging-control);
+    color: var(--paging-muted);
+    font-size: 0.86rem;
+    white-space: nowrap;
+}
+
+.page-status strong {
+    color: var(--paging-accent);
+    font-size: 1.12rem;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Theme dark mode supports both selectors in different Matery versions. */
+#dark-mode .paging,
+body.dark .paging {
+    --paging-surface: rgba(11, 22, 38, 0.78);
+    --paging-control: rgba(255, 255, 255, 0.075);
+    --paging-control-hover: rgba(255, 255, 255, 0.13);
+    --paging-border: rgba(125, 211, 252, 0.16);
+    --paging-divider: rgba(226, 232, 240, 0.13);
+    --paging-text: #e5eef7;
+    --paging-muted: #94a3b8;
+}
+
+#dark-mode .pagination-shell,
+body.dark .pagination-shell {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.34),
+                inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 601px) {
+    .pagination-shell {
+        flex-wrap: wrap;
+    }
+
+    .jump-to-page {
+        padding-left: 0;
+        border-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .paging {
+        width: calc(100% - 24px) !important;
+        margin: 24px auto 22px;
+    }
+
+    .pagination-shell {
+        flex-direction: column;
+        width: 100%;
+        padding: 12px;
+        gap: 12px;
+        border-radius: 20px;
+    }
+
+    .pagination-main {
+        justify-content: space-between;
+        width: 100%;
+        gap: 9px;
+    }
+
+    .pagination-nav {
+        width: 52px;
+        min-width: 52px;
+        height: 52px;
+        padding: 0;
+        border-radius: 16px;
+    }
+
+    .pagination-nav i {
+        font-size: 1rem;
+    }
+
+    .jump-to-page {
+        justify-content: center;
+        width: 100%;
+        padding: 12px 0 0;
+        border-top: 1px solid var(--paging-divider);
+        border-left: 0;
+    }
+
+    .input-container,
+    .jump-btn {
+        height: 46px;
+        border-radius: 14px;
+    }
+
+    .input-container {
+        flex: 1 1 auto;
+        max-width: 150px;
+    }
+
+    .jump-input {
+        flex: 1 1 auto;
+        width: 52px !important;
+        height: 44px !important;
+        line-height: 44px;
+    }
+
+    .jump-btn {
+        width: 46px;
+        min-width: 46px;
+        padding: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pagination-control,
+    .input-container {
+        transition: none;
+    }
+
+    a.pagination-control:hover,
+    button.pagination-control:hover,
+    a.pagination-control:active,
+    button.pagination-control:active {
+        transform: none;
+    }
+}

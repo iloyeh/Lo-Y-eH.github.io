@@ -1,0 +1,296 @@
+/* ====== 统一变量定义 ====== */
+:root {
+    /* 背景与深色模式变量 */
+    --cover-height: 110vh;
+    --cover-position: 0vh;
+    --cover-filter: brightness(0.8);
+    --card-bg-light: url(../medias/flowerbg-white.png) top fixed;
+    --card-bg-dark: url(../medias/flowerbg-black.png) top fixed;
+    --quote-light-bg: rgba(255, 255, 255, 0.95);
+    --quote-dark-bg: rgba(34, 34, 34, 0.85);
+    --quote-light-shadow: 0 14px 38px rgba(0, 0, 0, 0.08), 0 3px 8px rgba(0, 0, 0, 0.06);
+    --quote-dark-shadow: 0 14px 38px rgba(0, 0, 0, 0.2), 0 3px 8px rgba(0, 0, 0, 0.15);
+
+    /* 聊天框变量 */
+    --light-bg: #f5f7fa;
+    --dark-bg: #1e2229;
+    --user-bubble: #ffffff;
+    --bot-bubble: #a6e860;
+    --user-dark: #2a2f3d;
+    --bot-dark: #4a7a2c;
+    --avatar-size: 50px;
+    --bubble-radius: 18px;
+    --bubble-padding: 12px 16px;
+}
+
+/* ====== 背景图优化 ====== */
+/* 保留这段可以显示完整的banner图，不保留则只显示上半部分，虽然不知道为什么 */
+/*.bg-cover {*/
+/*    height: var(--cover-height);*/
+/*    background-position-y: var(--cover-position);*/
+/*    filter: var(--cover-filter);*/
+/*    -webkit-filter: var(--cover-filter);*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+/*.bg-cover::before {*/
+/*    content: "";*/
+/*    background-image: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/grid.png) !important;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    z-index: -1;*/
+/*}*/
+
+/* ====== 引述框(.swbk)样式 ====== */
+.swbk {
+    position: relative;
+    padding: 26px 20px;
+    margin: 16px 80px;
+    border-radius: 8px;
+    background-color: var(--quote-light-bg);
+    box-shadow: var(--quote-light-shadow);
+    transition: all 0.3s ease, transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1);
+    overflow: visible; /* 改为 visible 让标签能够突出显示 */
+    z-index: 1;
+}
+
+.swbk:before,
+.swbk:after {
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration: inherit;
+}
+
+.swbk::before {
+    content: "“";
+    top: 15%;
+    left: 2%;
+}
+
+.swbk::after {
+    content: "”";
+    bottom: 8%;
+    right: 2%;
+}
+
+.swbk p {
+    font-size: 19px !important;
+    line-height: 2.4rem;
+    text-indent: 2rem;
+    font-style: italic;
+    font-family: 'Architects Daughter', cursive !important;
+}
+
+.swbk .label {
+    display: inline-block;
+    position: absolute;
+    top: -16px;
+    left: -8px;
+    margin-bottom: 0;
+    padding: 0 14px 0 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 0 3px 3px 0;
+    background-color: currentColor;
+    z-index: 3;
+}
+
+.swbk .label span {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.swbk .label::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 16px solid transparent;
+    border-top-color: currentColor;
+    border-right-color: currentColor;
+}
+
+.swbk:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--quote-dark-shadow);
+}
+
+/* ====== 聊天框样式 ====== */
+.triangle {
+    margin: 20px auto;
+    background-color: var(--light-bg);
+    border-radius: 12px;
+    padding: 20px 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.triangle ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.triangle li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    max-width: 85%;
+}
+
+.triangle .textLeft {
+    align-self: flex-start;
+}
+
+.triangle .textRight {
+    align-self: flex-end;
+}
+
+/* 消息气泡 */
+.triangle li span {
+    position: relative;
+    border-radius: var(--bubble-radius);
+    padding: var(--bubble-padding);
+    font-size: 16px;
+    line-height: 1.5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    word-break: break-word;
+}
+
+/* 左侧消息（用户） */
+.triangle .textLeft span {
+    background-color: var(--user-bubble);
+    margin-left: calc(var(--avatar-size) + 15px);
+}
+
+/* 右侧消息（机器人） */
+.triangle .textRight span {
+    background-color: var(--bot-bubble);
+    margin-right: calc(var(--avatar-size) + 15px);
+}
+
+/* 头像样式 */
+.triangle li.textLeft:before,
+.triangle li.textRight:after {
+    content: "";
+    display: block;
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.triangle li.textLeft:before {
+    left: 0;
+    background-image: url("../medias/talk.jpg");
+}
+
+.triangle li.textRight:after {
+    right: 0;
+    background-image: url("../medias/talk1.jpg");
+}
+
+/* 对话气泡箭头 */
+.triangle li.textLeft span:before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 12px;
+    border: 8px solid transparent;
+    border-right-color: var(--user-bubble);
+}
+
+.triangle li.textRight span:after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 12px;
+    border: 8px solid transparent;
+    border-left-color: var(--bot-bubble);
+}
+
+/* ====== 深色模式适配 ====== */
+#dark-mode .swbk,
+#dark-mode .triangle,
+#dark-mode .v[data-class=v] .vwrap {
+    background: var(--quote-dark-bg) !important;
+}
+
+#dark-mode .swbk::before,
+#dark-mode .swbk::after {
+    color: #d2c9c9;
+    opacity: 0.35;
+}
+
+#dark-mode .card {
+    background: var(--card-bg-dark) !important;
+}
+
+#dark-mode .triangle {
+    background-color: var(--dark-bg);
+}
+
+#dark-mode .triangle .textLeft span {
+    background-color: var(--user-dark);
+    color: #e1e3e8;
+}
+
+#dark-mode .triangle li.textLeft span:before {
+    border-right-color: var(--user-dark);
+}
+
+#dark-mode .triangle .textRight span {
+    background-color: var(--bot-dark);
+    color: #f0f4e8;
+}
+
+#dark-mode .triangle li.textRight span:after {
+    border-left-color: var(--bot-dark);
+}
+
+.v[data-class=v] .vwrap {
+    background-color: var(--quote-light-bg);
+    border-radius: 8px;
+}
+
+/* ====== 其他元素样式 ====== */
+/* 评论滚动位置 */
+.comment-scroll {
+    bottom: 95px;
+}
+
+/* 诗歌样式 */
+.poem-wrap h1,
+.poem-wrap p {
+    font-family: "华文行楷", "STXingkai", "KaiTi", cursive;
+    line-height: 1.8;
+}
+
+/* ====== 响应式优化 ====== */
+@media screen and (min-width: 768px) {
+    .swbk .label {
+        left: -3.5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .swbk .label {
+        left: -1.5%;
+    }
+}

@@ -1,0 +1,100 @@
+/* 设置页脚的顶部外边距为 120px */
+footer {
+    margin-top: 120px;
+}
+
+/* 设置波浪容器的定位为相对定位 */
+footer .fot-wave-box {
+    position: relative;
+}
+
+/* 设置波浪的样式 */
+footer .fot-wave {
+    position: absolute;
+    /* 使波浪位于页脚上方 125px 处，因为底部栏高度为124.45px */
+    top: -125px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    
+}
+
+/* 第一个波浪的样式 */
+footer .fot-wave#fot-wave_0 {
+    z-index: 10;
+    opacity: 1;
+    bottom: 0;
+    /* 应用波浪动画 */
+    animation: aniFotWaveMove_00 4s linear infinite;
+}
+
+/* 第二个波浪的样式 */
+footer .fot-wave#fot-wave_1 {
+    z-index: 9;
+    opacity: .5;
+    bottom: 10px;
+    /* 应用波浪动画 */
+    animation: aniFotWaveMove_01 4s linear infinite;
+}
+
+/* 第三个波浪的样式 */
+footer .fot-wave#fot-wave_2 {
+    z-index: 10;
+    opacity: .2;
+    bottom: 15px;
+    /* 应用波浪动画 */
+    animation: aniFotWaveMove_00 3s linear infinite;
+}
+
+/* 第四个波浪的样式 */
+footer .fot-wave#fot-wave_3 {
+    z-index: 9;
+    opacity: .7;
+    bottom: 20px;
+    /* 应用波浪动画 */
+    animation: aniFotWaveMove_01 3s linear infinite;    
+}
+
+/* 定义波浪的移动动画 */
+@keyframes aniFotWaveMove_00 {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-position-x: 0;
+    }
+}
+
+/* 定义波浪的移动动画 */
+@keyframes aniFotWaveMove_01 {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+/* Safari 浏览器下的兼容性样式 */
+@-webkit-keyframes aniFotWaveMove_00 {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-position-x: 0;
+    }
+}
+
+/* Safari 浏览器下的兼容性样式 */
+@-webkit-keyframes aniFotWaveMove_01 {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}

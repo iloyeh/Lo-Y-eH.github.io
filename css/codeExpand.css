@@ -1,0 +1,61 @@
+#articleContent .code-area .code-expand-btn:not(.expand-done)~pre {
+    display: block;
+    height: 300px
+}
+
+#articleContent .code-area .code-expand-btn {
+    position: absolute;
+    background-color: #d6e9f5;
+    height: 32px;
+    border-radius: 0 0 8px 8px;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    line-height: 32px;
+    -webkit-transition: all .5s;
+    transition: all .5s
+}
+
+#articleContent .code-expand-btn i {
+    font-size: 14px;
+    line-height: 1;
+    -webkit-animation: 1.2s ease 0s infinite normal none running code-expand-key;
+    animation: 1.2s ease 0s infinite normal none running code-expand-key
+}
+
+#articleContent .code-area .code-expand-btn.expand-done {
+    display: none !important
+}
+
+@-webkit-keyframes code-expand-key {
+    0% {
+        opacity: .6
+    }
+
+    50% {
+        opacity: .1
+    }
+
+    100% {
+        opacity: .6
+    }
+}
+
+@keyframes code-expand-key {
+    0% {
+        opacity: .6
+    }
+
+    50% {
+        opacity: .1
+    }
+
+    100% {
+        opacity: .6
+    }
+}
+
+body.DarkMode #articleContent .code-area .code-expand-btn {
+    background-color: #272727
+}

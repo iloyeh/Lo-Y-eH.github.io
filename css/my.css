@@ -1,0 +1,130 @@
+/* 自定义 CSS 样式 */
+
+
+/* 设置全局字体 */
+@font-face {
+    font-family: 'greenBird';
+    src: url('../font/greenBird.ttf');
+}
+
+
+/*使用自定义字体的 CSS类*/
+.diyFont {
+    font-family: '华文行楷', 'STXingkai', cursive;
+    font-size: 2rem;
+}
+
+
+/* 修改首页轮播的标题大小 */
+@media only screen and (max-width: 601px) {
+    .bg-cover .title {
+        font-size: 2.5rem;
+    }
+}
+
+/* 修改博客标题的字体大小 */
+@media only screen and (max-width: 601px) {
+    header .brand-logo .logo-span {
+        font-size: 1.5rem;
+    }
+}
+
+/* hexo-filter-github-emojis */
+.github-emoji {
+    height: 2em;
+    width: 2em;
+    display: inline-block !important;
+    position: relative;
+    margin: 0 3px !important;
+    padding: 0;
+}
+
+.github-emoji:hover {
+    animation: emoji-face 5s infinite ease-in-out;
+}
+
+@keyframes emoji-face {
+    2% {
+        transform: translate(0, 1.5px) rotate(1.5deg);
+    }
+
+    4% {
+        transform: translate(0, -1.5px) rotate(-0.5deg);
+    }
+
+    6% {
+        transform: translate(0, 1.5px) rotate(-1.5deg);
+    }
+
+    8% {
+        transform: translate(0, -1.5px) rotate(-1.5deg);
+    }
+
+    10% {
+        transform: translate(0, 2.5px) rotate(1.5deg);
+    }
+
+    12% {
+        transform: translate(0, -0.5px) rotate(1.5deg);
+    }
+
+    14% {
+        transform: translate(0, -1.5px) rotate(1.5deg);
+    }
+
+    16% {
+        transform: translate(0, -0.5px) rotate(-1.5deg);
+    }
+
+    18% {
+        transform: translate(0, 0.5px) rotate(-1.5deg);
+    }
+
+    20% {
+        transform: translate(0, -1.5px) rotate(2.5deg);
+    }
+
+    22% {
+        transform: translate(0, 0.5px) rotate(-1.5deg);
+    }
+
+    24% {
+        transform: translate(0, 1.5px) rotate(1.5deg);
+    }
+
+    26% {
+        transform: translate(0, 0.5px) rotate(0.5deg);
+    }
+
+    28% {
+        transform: translate(0, 0.5px) rotate(1.5deg);
+    }
+}
+
+/* 同心圆鼠标光晕与动作 */
+#cursor {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: rgb(57, 197, 187);
+    opacity: 0.25;
+    z-index: 10086;
+    pointer-events: none;
+    transition: background 0.2s ease-in-out, opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+    transform: scale(2);
+}
+
+#cursor.hidden {
+    opacity: 0;
+}
+
+#cursor.hover {
+    opacity: 0.1;
+    transform: scale(2.5);
+}
+
+#cursor.active {
+    opacity: 0.5;
+    transform: scale(0.5);
+}
